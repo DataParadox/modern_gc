@@ -1,0 +1,770 @@
+[0.018s][info][gc,init] CardTable entry size: 512
+[0.018s][info][gc     ] Using Parallel
+[0.022s][info][gc,init] Version: 20+36-2344 (release)
+[0.022s][info][gc,init] CPUs: 48 total, 48 available
+[0.022s][info][gc,init] Memory: 382G
+[0.022s][info][gc,init] Large Page Support: Disabled
+[0.022s][info][gc,init] NUMA Support: Disabled
+[0.022s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.022s][info][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
+[0.022s][info][gc,init] Heap Min Capacity: 8M
+[0.022s][info][gc,init] Heap Initial Capacity: 512M
+[0.030s][info][gc,init] Heap Max Capacity: 512M
+[0.030s][info][gc,init] Pre-touch: Disabled
+[0.030s][info][gc,init] Parallel Workers: 33
+[0.031s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.031s][info][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.031s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[10.232s][info][gc,start    ] GC(0) Pause Young (Metadata GC Threshold)
+[10.245s][info][gc,heap     ] GC(0) PSYoungGen: 112383K(153088K)->18417K(153088K) Eden: 112383K(131584K)->0K(131584K) From: 0K(21504K)->18417K(21504K)
+[10.245s][info][gc,heap     ] GC(0) ParOldGen: 0K(349696K)->16K(349696K)
+[10.245s][info][gc,metaspace] GC(0) Metaspace: 21267K(21504K)->21267K(21504K) NonClass: 18548K(18688K)->18548K(18688K) Class: 2719K(2816K)->2719K(2816K)
+[10.245s][info][gc          ] GC(0) Pause Young (Metadata GC Threshold) 109M->18M(491M) 13.024ms
+[10.245s][info][gc,cpu      ] GC(0) User=0.08s Sys=0.09s Real=0.02s
+[10.245s][info][gc,start    ] GC(1) Pause Full (Metadata GC Threshold)
+[10.245s][info][gc,phases,start] GC(1) Marking Phase
+[10.255s][info][gc,phases      ] GC(1) Marking Phase 10.104ms
+[10.255s][info][gc,phases,start] GC(1) Summary Phase
+[10.255s][info][gc,phases      ] GC(1) Summary Phase 0.037ms
+[10.255s][info][gc,phases,start] GC(1) Adjust Roots
+[10.261s][info][gc,phases      ] GC(1) Adjust Roots 5.707ms
+[10.261s][info][gc,phases,start] GC(1) Compaction Phase
+[10.272s][info][gc,phases      ] GC(1) Compaction Phase 11.530ms
+[10.272s][info][gc,phases,start] GC(1) Post Compact
+[10.275s][info][gc,phases      ] GC(1) Post Compact 2.774ms
+[10.275s][info][gc,heap        ] GC(1) PSYoungGen: 18417K(153088K)->0K(153088K) Eden: 0K(131584K)->0K(131584K) From: 18417K(21504K)->0K(21504K)
+[10.275s][info][gc,heap        ] GC(1) ParOldGen: 16K(349696K)->18050K(349696K)
+[10.275s][info][gc,metaspace   ] GC(1) Metaspace: 21267K(21504K)->21267K(21504K) NonClass: 18548K(18688K)->18548K(18688K) Class: 2719K(2816K)->2719K(2816K)
+[10.275s][info][gc             ] GC(1) Pause Full (Metadata GC Threshold) 18M->17M(491M) 30.510ms
+[10.275s][info][gc,cpu         ] GC(1) User=0.14s Sys=0.02s Real=0.03s
+[11.179s][info][gc,start       ] GC(2) Pause Young (Metadata GC Threshold)
+[11.185s][info][gc,heap        ] GC(2) PSYoungGen: 78681K(153088K)->4798K(153088K) Eden: 78681K(131584K)->0K(131584K) From: 0K(21504K)->4798K(21504K)
+[11.185s][info][gc,heap        ] GC(2) ParOldGen: 18050K(349696K)->18058K(349696K)
+[11.186s][info][gc,metaspace   ] GC(2) Metaspace: 35448K(35840K)->35448K(35840K) NonClass: 30970K(31168K)->30970K(31168K) Class: 4478K(4672K)->4478K(4672K)
+[11.186s][info][gc             ] GC(2) Pause Young (Metadata GC Threshold) 94M->22M(491M) 6.315ms
+[11.186s][info][gc,cpu         ] GC(2) User=0.00s Sys=0.00s Real=0.00s
+[11.186s][info][gc,start       ] GC(3) Pause Full (Metadata GC Threshold)
+[11.186s][info][gc,phases,start] GC(3) Marking Phase
+[11.203s][info][gc,phases      ] GC(3) Marking Phase 17.254ms
+[11.203s][info][gc,phases,start] GC(3) Summary Phase
+[11.203s][info][gc,phases      ] GC(3) Summary Phase 0.027ms
+[11.203s][info][gc,phases,start] GC(3) Adjust Roots
+[11.211s][info][gc,phases      ] GC(3) Adjust Roots 7.886ms
+[11.211s][info][gc,phases,start] GC(3) Compaction Phase
+[11.227s][info][gc,phases      ] GC(3) Compaction Phase 15.648ms
+[11.227s][info][gc,phases,start] GC(3) Post Compact
+[11.228s][info][gc,phases      ] GC(3) Post Compact 0.975ms
+[11.228s][info][gc,heap        ] GC(3) PSYoungGen: 4798K(153088K)->0K(153088K) Eden: 0K(131584K)->0K(131584K) From: 4798K(21504K)->0K(21504K)
+[11.228s][info][gc,heap        ] GC(3) ParOldGen: 18058K(349696K)->22346K(349696K)
+[11.228s][info][gc,metaspace   ] GC(3) Metaspace: 35448K(35840K)->35448K(35840K) NonClass: 30970K(31168K)->30970K(31168K) Class: 4478K(4672K)->4478K(4672K)
+[11.228s][info][gc             ] GC(3) Pause Full (Metadata GC Threshold) 22M->21M(491M) 42.148ms
+[11.228s][info][gc,cpu         ] GC(3) User=0.06s Sys=0.00s Real=0.05s
+[11.789s][info][gc,start       ] GC(4) Pause Young (Allocation Failure)
+[12.697s][info][gc,heap        ] GC(4) PSYoungGen: 131584K(153088K)->21472K(153088K) Eden: 131584K(131584K)->0K(131584K) From: 0K(21504K)->21472K(21504K)
+[12.698s][info][gc,heap        ] GC(4) ParOldGen: 22346K(349696K)->95786K(349696K)
+[12.698s][info][gc,metaspace   ] GC(4) Metaspace: 42246K(42624K)->42246K(42624K) NonClass: 36946K(37184K)->36946K(37184K) Class: 5300K(5440K)->5300K(5440K)
+[12.698s][info][gc             ] GC(4) Pause Young (Allocation Failure) 150M->114M(491M) 908.574ms
+[12.698s][info][gc,cpu         ] GC(4) User=2.70s Sys=0.14s Real=0.91s
+[12.921s][info][gc,start       ] GC(5) Pause Young (Allocation Failure)
+[14.111s][info][gc,heap        ] GC(5) PSYoungGen: 153056K(153088K)->21472K(153088K) Eden: 131584K(131584K)->0K(131584K) From: 21472K(21504K)->21472K(21504K)
+[14.111s][info][gc,heap        ] GC(5) ParOldGen: 95786K(349696K)->224498K(349696K)
+[14.111s][info][gc,metaspace   ] GC(5) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[14.111s][info][gc             ] GC(5) Pause Young (Allocation Failure) 243M->240M(491M) 1190.306ms
+[14.111s][info][gc,cpu         ] GC(5) User=4.27s Sys=0.14s Real=1.19s
+[14.111s][info][gc,start       ] GC(6) Pause Full (Ergonomics)
+[14.111s][info][gc,phases,start] GC(6) Marking Phase
+[14.654s][info][gc,phases      ] GC(6) Marking Phase 542.861ms
+[14.654s][info][gc,phases,start] GC(6) Summary Phase
+[14.654s][info][gc,phases      ] GC(6) Summary Phase 0.015ms
+[14.654s][info][gc,phases,start] GC(6) Adjust Roots
+[14.658s][info][gc,phases      ] GC(6) Adjust Roots 3.695ms
+[14.658s][info][gc,phases,start] GC(6) Compaction Phase
+[14.740s][info][gc,phases      ] GC(6) Compaction Phase 82.015ms
+[14.740s][info][gc,phases,start] GC(6) Post Compact
+[14.741s][info][gc,phases      ] GC(6) Post Compact 1.412ms
+[14.742s][info][gc,heap        ] GC(6) PSYoungGen: 21472K(153088K)->0K(153088K) Eden: 0K(131584K)->0K(131584K) From: 21472K(21504K)->0K(21504K)
+[14.742s][info][gc,heap        ] GC(6) ParOldGen: 224498K(349696K)->244550K(349696K)
+[14.742s][info][gc,metaspace   ] GC(6) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[14.742s][info][gc             ] GC(6) Pause Full (Ergonomics) 240M->238M(491M) 630.244ms
+[14.742s][info][gc,cpu         ] GC(6) User=6.72s Sys=0.00s Real=0.63s
+[14.951s][info][gc,start       ] GC(7) Pause Full (Ergonomics)
+[14.951s][info][gc,phases,start] GC(7) Marking Phase
+[15.798s][info][gc,phases      ] GC(7) Marking Phase 847.278ms
+[15.798s][info][gc,phases,start] GC(7) Summary Phase
+[15.798s][info][gc,phases      ] GC(7) Summary Phase 0.022ms
+[15.798s][info][gc,phases,start] GC(7) Adjust Roots
+[15.800s][info][gc,phases      ] GC(7) Adjust Roots 2.446ms
+[15.800s][info][gc,phases,start] GC(7) Compaction Phase
+[15.860s][info][gc,phases      ] GC(7) Compaction Phase 59.942ms
+[15.860s][info][gc,phases,start] GC(7) Post Compact
+[15.862s][info][gc,phases      ] GC(7) Post Compact 1.927ms
+[15.862s][info][gc,heap        ] GC(7) PSYoungGen: 131584K(153088K)->24196K(153088K) Eden: 131584K(131584K)->24196K(131584K) From: 0K(21504K)->0K(21504K)
+[15.862s][info][gc,heap        ] GC(7) ParOldGen: 244550K(349696K)->349346K(349696K)
+[15.863s][info][gc,metaspace   ] GC(7) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[15.863s][info][gc             ] GC(7) Pause Full (Ergonomics) 367M->364M(491M) 911.956ms
+[15.863s][info][gc,cpu         ] GC(7) User=9.89s Sys=0.08s Real=0.91s
+[16.016s][info][gc,start       ] GC(8) Pause Full (Ergonomics)
+[16.016s][info][gc,phases,start] GC(8) Marking Phase
+[17.056s][info][gc,phases      ] GC(8) Marking Phase 1039.376ms
+[17.056s][info][gc,phases,start] GC(8) Summary Phase
+[17.056s][info][gc,phases      ] GC(8) Summary Phase 0.022ms
+[17.056s][info][gc,phases,start] GC(8) Adjust Roots
+[17.058s][info][gc,phases      ] GC(8) Adjust Roots 2.393ms
+[17.058s][info][gc,phases,start] GC(8) Compaction Phase
+[17.261s][info][gc,phases      ] GC(8) Compaction Phase 203.407ms
+[17.262s][info][gc,phases,start] GC(8) Post Compact
+[17.265s][info][gc,phases      ] GC(8) Post Compact 3.018ms
+[17.265s][info][gc,heap        ] GC(8) PSYoungGen: 131584K(153088K)->129795K(153088K) Eden: 131584K(131584K)->129795K(131584K) From: 0K(21504K)->0K(21504K)
+[17.265s][info][gc,heap        ] GC(8) ParOldGen: 349346K(349696K)->349346K(349696K)
+[17.265s][info][gc,metaspace   ] GC(8) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[17.265s][info][gc             ] GC(8) Pause Full (Ergonomics) 469M->467M(491M) 1248.607ms
+[17.265s][info][gc,cpu         ] GC(8) User=12.05s Sys=0.00s Real=1.25s
+[17.265s][info][gc,start       ] GC(9) Pause Full (Ergonomics)
+[17.265s][info][gc,phases,start] GC(9) Marking Phase
+[18.464s][info][gc,phases      ] GC(9) Marking Phase 1198.890ms
+[18.464s][info][gc,phases,start] GC(9) Summary Phase
+[18.464s][info][gc,phases      ] GC(9) Summary Phase 0.022ms
+[18.464s][info][gc,phases,start] GC(9) Adjust Roots
+[18.467s][info][gc,phases      ] GC(9) Adjust Roots 2.532ms
+[18.467s][info][gc,phases,start] GC(9) Compaction Phase
+[18.585s][info][gc,phases      ] GC(9) Compaction Phase 117.820ms
+[18.585s][info][gc,phases,start] GC(9) Post Compact
+[18.588s][info][gc,phases      ] GC(9) Post Compact 3.038ms
+[18.588s][info][gc,heap        ] GC(9) PSYoungGen: 131584K(153088K)->129807K(153088K) Eden: 131584K(131584K)->129807K(131584K) From: 0K(21504K)->0K(21504K)
+[18.588s][info][gc,heap        ] GC(9) ParOldGen: 349346K(349696K)->349346K(349696K)
+[18.588s][info][gc,metaspace   ] GC(9) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[18.588s][info][gc             ] GC(9) Pause Full (Ergonomics) 469M->467M(491M) 1322.669ms
+[18.588s][info][gc,cpu         ] GC(9) User=13.52s Sys=0.00s Real=1.33s
+[18.594s][info][gc,start       ] GC(10) Pause Full (Ergonomics)
+[18.594s][info][gc,phases,start] GC(10) Marking Phase
+[19.632s][info][gc,phases      ] GC(10) Marking Phase 1037.316ms
+[19.632s][info][gc,phases,start] GC(10) Summary Phase
+[19.632s][info][gc,phases      ] GC(10) Summary Phase 0.022ms
+[19.632s][info][gc,phases,start] GC(10) Adjust Roots
+[19.634s][info][gc,phases      ] GC(10) Adjust Roots 2.440ms
+[19.634s][info][gc,phases,start] GC(10) Compaction Phase
+[19.671s][info][gc,phases      ] GC(10) Compaction Phase 36.971ms
+[19.671s][info][gc,phases,start] GC(10) Post Compact
+[19.674s][info][gc,phases      ] GC(10) Post Compact 2.951ms
+[19.674s][info][gc,heap        ] GC(10) PSYoungGen: 131584K(153088K)->131467K(153088K) Eden: 131584K(131584K)->131467K(131584K) From: 0K(21504K)->0K(21504K)
+[19.674s][info][gc,heap        ] GC(10) ParOldGen: 349346K(349696K)->349346K(349696K)
+[19.674s][info][gc,metaspace   ] GC(10) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[19.674s][info][gc             ] GC(10) Pause Full (Ergonomics) 469M->469M(491M) 1080.062ms
+[19.674s][info][gc,cpu         ] GC(10) User=11.52s Sys=0.00s Real=1.08s
+[19.675s][info][gc,start       ] GC(11) Pause Full (Ergonomics)
+[19.675s][info][gc,phases,start] GC(11) Marking Phase
+[20.717s][info][gc,phases      ] GC(11) Marking Phase 1042.456ms
+[20.717s][info][gc,phases,start] GC(11) Summary Phase
+[20.717s][info][gc,phases      ] GC(11) Summary Phase 0.022ms
+[20.717s][info][gc,phases,start] GC(11) Adjust Roots
+[20.720s][info][gc,phases      ] GC(11) Adjust Roots 2.400ms
+[20.720s][info][gc,phases,start] GC(11) Compaction Phase
+[20.755s][info][gc,phases      ] GC(11) Compaction Phase 34.915ms
+[20.755s][info][gc,phases,start] GC(11) Post Compact
+[20.757s][info][gc,phases      ] GC(11) Post Compact 2.294ms
+[20.757s][info][gc,heap        ] GC(11) PSYoungGen: 131584K(153088K)->131481K(153088K) Eden: 131584K(131584K)->131481K(131584K) From: 0K(21504K)->0K(21504K)
+[20.757s][info][gc,heap        ] GC(11) ParOldGen: 349346K(349696K)->349346K(349696K)
+[20.757s][info][gc,metaspace   ] GC(11) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[20.757s][info][gc             ] GC(11) Pause Full (Ergonomics) 469M->469M(491M) 1082.322ms
+[20.757s][info][gc,cpu         ] GC(11) User=11.86s Sys=0.00s Real=1.08s
+[20.757s][info][gc,start       ] GC(12) Pause Full (Ergonomics)
+[20.757s][info][gc,phases,start] GC(12) Marking Phase
+[21.919s][info][gc,phases      ] GC(12) Marking Phase 1161.119ms
+[21.919s][info][gc,phases,start] GC(12) Summary Phase
+[21.919s][info][gc,phases      ] GC(12) Summary Phase 0.022ms
+[21.919s][info][gc,phases,start] GC(12) Adjust Roots
+[21.921s][info][gc,phases      ] GC(12) Adjust Roots 2.422ms
+[21.921s][info][gc,phases,start] GC(12) Compaction Phase
+[21.959s][info][gc,phases      ] GC(12) Compaction Phase 37.464ms
+[21.959s][info][gc,phases,start] GC(12) Post Compact
+[21.961s][info][gc,phases      ] GC(12) Post Compact 2.309ms
+[21.961s][info][gc,heap        ] GC(12) PSYoungGen: 131584K(153088K)->131581K(153088K) Eden: 131584K(131584K)->131581K(131584K) From: 0K(21504K)->0K(21504K)
+[21.961s][info][gc,heap        ] GC(12) ParOldGen: 349348K(349696K)->349348K(349696K)
+[21.961s][info][gc,metaspace   ] GC(12) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[21.961s][info][gc             ] GC(12) Pause Full (Ergonomics) 469M->469M(491M) 1203.613ms
+[21.961s][info][gc,cpu         ] GC(12) User=13.25s Sys=0.00s Real=1.22s
+[21.961s][info][gc,start       ] GC(13) Pause Full (Ergonomics)
+[21.961s][info][gc,phases,start] GC(13) Marking Phase
+[23.022s][info][gc,phases      ] GC(13) Marking Phase 1060.612ms
+[23.022s][info][gc,phases,start] GC(13) Summary Phase
+[23.022s][info][gc,phases      ] GC(13) Summary Phase 0.022ms
+[23.022s][info][gc,phases,start] GC(13) Adjust Roots
+[23.024s][info][gc,phases      ] GC(13) Adjust Roots 2.397ms
+[23.024s][info][gc,phases,start] GC(13) Compaction Phase
+[23.062s][info][gc,phases      ] GC(13) Compaction Phase 37.471ms
+[23.062s][info][gc,phases,start] GC(13) Post Compact
+[23.064s][info][gc,phases      ] GC(13) Post Compact 2.296ms
+[23.064s][info][gc,heap        ] GC(13) PSYoungGen: 131584K(153088K)->131583K(153088K) Eden: 131584K(131584K)->131583K(131584K) From: 0K(21504K)->0K(21504K)
+[23.064s][info][gc,heap        ] GC(13) ParOldGen: 349348K(349696K)->349348K(349696K)
+[23.064s][info][gc,metaspace   ] GC(13) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[23.064s][info][gc             ] GC(13) Pause Full (Ergonomics) 469M->469M(491M) 1103.030ms
+[23.064s][info][gc,cpu         ] GC(13) User=12.20s Sys=0.00s Real=1.10s
+[23.065s][info][gc,start       ] GC(14) Pause Full (Ergonomics)
+[23.065s][info][gc,phases,start] GC(14) Marking Phase
+[24.104s][info][gc,phases      ] GC(14) Marking Phase 1038.998ms
+[24.104s][info][gc,phases,start] GC(14) Summary Phase
+[24.104s][info][gc,phases      ] GC(14) Summary Phase 0.022ms
+[24.104s][info][gc,phases,start] GC(14) Adjust Roots
+[24.106s][info][gc,phases      ] GC(14) Adjust Roots 2.459ms
+[24.106s][info][gc,phases,start] GC(14) Compaction Phase
+[24.143s][info][gc,phases      ] GC(14) Compaction Phase 36.672ms
+[24.143s][info][gc,phases,start] GC(14) Post Compact
+[24.145s][info][gc,phases      ] GC(14) Post Compact 2.319ms
+[24.145s][info][gc,heap        ] GC(14) PSYoungGen: 131583K(153088K)->131583K(153088K) Eden: 131583K(131584K)->131583K(131584K) From: 0K(21504K)->0K(21504K)
+[24.145s][info][gc,heap        ] GC(14) ParOldGen: 349348K(349696K)->349348K(349696K)
+[24.145s][info][gc,metaspace   ] GC(14) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[24.145s][info][gc             ] GC(14) Pause Full (Ergonomics) 469M->469M(491M) 1080.811ms
+[24.145s][info][gc,cpu         ] GC(14) User=11.70s Sys=0.00s Real=1.08s
+[24.146s][info][gc,start       ] GC(15) Pause Full (Ergonomics)
+[24.146s][info][gc,phases,start] GC(15) Marking Phase
+[25.167s][info][gc,phases      ] GC(15) Marking Phase 1021.308ms
+[25.167s][info][gc,phases,start] GC(15) Summary Phase
+[25.167s][info][gc,phases      ] GC(15) Summary Phase 0.022ms
+[25.167s][info][gc,phases,start] GC(15) Adjust Roots
+[25.169s][info][gc,phases      ] GC(15) Adjust Roots 2.388ms
+[25.169s][info][gc,phases,start] GC(15) Compaction Phase
+[25.206s][info][gc,phases      ] GC(15) Compaction Phase 37.048ms
+[25.206s][info][gc,phases,start] GC(15) Post Compact
+[25.209s][info][gc,phases      ] GC(15) Post Compact 2.317ms
+[25.209s][info][gc,heap        ] GC(15) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[25.209s][info][gc,heap        ] GC(15) ParOldGen: 349348K(349696K)->349348K(349696K)
+[25.209s][info][gc,metaspace   ] GC(15) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[25.209s][info][gc             ] GC(15) Pause Full (Ergonomics) 469M->469M(491M) 1063.311ms
+[25.209s][info][gc,cpu         ] GC(15) User=11.61s Sys=0.00s Real=1.06s
+[25.209s][info][gc,start       ] GC(16) Pause Full (Ergonomics)
+[25.209s][info][gc,phases,start] GC(16) Marking Phase
+[26.292s][info][gc,phases      ] GC(16) Marking Phase 1083.240ms
+[26.292s][info][gc,phases,start] GC(16) Summary Phase
+[26.292s][info][gc,phases      ] GC(16) Summary Phase 0.022ms
+[26.292s][info][gc,phases,start] GC(16) Adjust Roots
+[26.295s][info][gc,phases      ] GC(16) Adjust Roots 2.518ms
+[26.295s][info][gc,phases,start] GC(16) Compaction Phase
+[26.336s][info][gc,phases      ] GC(16) Compaction Phase 40.781ms
+[26.336s][info][gc,phases,start] GC(16) Post Compact
+[26.339s][info][gc,phases      ] GC(16) Post Compact 3.004ms
+[26.339s][info][gc,heap        ] GC(16) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[26.339s][info][gc,heap        ] GC(16) ParOldGen: 349349K(349696K)->349349K(349696K)
+[26.339s][info][gc,metaspace   ] GC(16) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[26.339s][info][gc             ] GC(16) Pause Full (Ergonomics) 469M->469M(491M) 1129.938ms
+[26.339s][info][gc,cpu         ] GC(16) User=12.38s Sys=0.00s Real=1.12s
+[26.339s][info][gc,start       ] GC(17) Pause Full (Ergonomics)
+[26.339s][info][gc,phases,start] GC(17) Marking Phase
+[27.432s][info][gc,phases      ] GC(17) Marking Phase 1092.076ms
+[27.432s][info][gc,phases,start] GC(17) Summary Phase
+[27.432s][info][gc,phases      ] GC(17) Summary Phase 0.022ms
+[27.432s][info][gc,phases,start] GC(17) Adjust Roots
+[27.434s][info][gc,phases      ] GC(17) Adjust Roots 2.392ms
+[27.434s][info][gc,phases,start] GC(17) Compaction Phase
+[27.470s][info][gc,phases      ] GC(17) Compaction Phase 35.982ms
+[27.470s][info][gc,phases,start] GC(17) Post Compact
+[27.472s][info][gc,phases      ] GC(17) Post Compact 2.315ms
+[27.472s][info][gc,heap        ] GC(17) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[27.472s][info][gc,heap        ] GC(17) ParOldGen: 349351K(349696K)->349351K(349696K)
+[27.472s][info][gc,metaspace   ] GC(17) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[27.472s][info][gc             ] GC(17) Pause Full (Ergonomics) 469M->469M(491M) 1133.054ms
+[27.472s][info][gc,cpu         ] GC(17) User=12.38s Sys=0.02s Real=1.14s
+[27.473s][info][gc,start       ] GC(18) Pause Full (Ergonomics)
+[27.473s][info][gc,phases,start] GC(18) Marking Phase
+[28.490s][info][gc,phases      ] GC(18) Marking Phase 1017.571ms
+[28.490s][info][gc,phases,start] GC(18) Summary Phase
+[28.490s][info][gc,phases      ] GC(18) Summary Phase 0.022ms
+[28.490s][info][gc,phases,start] GC(18) Adjust Roots
+[28.493s][info][gc,phases      ] GC(18) Adjust Roots 2.403ms
+[28.493s][info][gc,phases,start] GC(18) Compaction Phase
+[28.533s][info][gc,phases      ] GC(18) Compaction Phase 40.650ms
+[28.533s][info][gc,phases,start] GC(18) Post Compact
+[28.536s][info][gc,phases      ] GC(18) Post Compact 2.341ms
+[28.536s][info][gc,heap        ] GC(18) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[28.536s][info][gc,heap        ] GC(18) ParOldGen: 349353K(349696K)->349352K(349696K)
+[28.536s][info][gc,metaspace   ] GC(18) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[28.536s][info][gc             ] GC(18) Pause Full (Ergonomics) 469M->469M(491M) 1063.216ms
+[28.536s][info][gc,cpu         ] GC(18) User=11.69s Sys=0.00s Real=1.06s
+[28.536s][info][gc,start       ] GC(19) Pause Full (Ergonomics)
+[28.536s][info][gc,phases,start] GC(19) Marking Phase
+[29.552s][info][gc,phases      ] GC(19) Marking Phase 1015.928ms
+[29.552s][info][gc,phases,start] GC(19) Summary Phase
+[29.552s][info][gc,phases      ] GC(19) Summary Phase 0.021ms
+[29.552s][info][gc,phases,start] GC(19) Adjust Roots
+[29.555s][info][gc,phases      ] GC(19) Adjust Roots 2.439ms
+[29.555s][info][gc,phases,start] GC(19) Compaction Phase
+[29.595s][info][gc,phases      ] GC(19) Compaction Phase 40.280ms
+[29.595s][info][gc,phases,start] GC(19) Post Compact
+[29.598s][info][gc,phases      ] GC(19) Post Compact 2.989ms
+[29.598s][info][gc,heap        ] GC(19) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[29.598s][info][gc,heap        ] GC(19) ParOldGen: 349354K(349696K)->349354K(349696K)
+[29.598s][info][gc,metaspace   ] GC(19) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[29.598s][info][gc             ] GC(19) Pause Full (Ergonomics) 469M->469M(491M) 1061.989ms
+[29.598s][info][gc,cpu         ] GC(19) User=11.53s Sys=0.00s Real=1.06s
+[29.598s][info][gc,start       ] GC(20) Pause Full (Ergonomics)
+[29.599s][info][gc,phases,start] GC(20) Marking Phase
+[30.658s][info][gc,phases      ] GC(20) Marking Phase 1059.924ms
+[30.658s][info][gc,phases,start] GC(20) Summary Phase
+[30.659s][info][gc,phases      ] GC(20) Summary Phase 0.021ms
+[30.659s][info][gc,phases,start] GC(20) Adjust Roots
+[30.661s][info][gc,phases      ] GC(20) Adjust Roots 2.400ms
+[30.661s][info][gc,phases,start] GC(20) Compaction Phase
+[30.697s][info][gc,phases      ] GC(20) Compaction Phase 36.416ms
+[30.697s][info][gc,phases,start] GC(20) Post Compact
+[30.700s][info][gc,phases      ] GC(20) Post Compact 2.299ms
+[30.700s][info][gc,heap        ] GC(20) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[30.700s][info][gc,heap        ] GC(20) ParOldGen: 349356K(349696K)->349356K(349696K)
+[30.700s][info][gc,metaspace   ] GC(20) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[30.700s][info][gc             ] GC(20) Pause Full (Ergonomics) 469M->469M(491M) 1101.336ms
+[30.700s][info][gc,cpu         ] GC(20) User=12.03s Sys=0.00s Real=1.10s
+[30.700s][info][gc,start       ] GC(21) Pause Full (Ergonomics)
+[30.700s][info][gc,phases,start] GC(21) Marking Phase
+[31.721s][info][gc,phases      ] GC(21) Marking Phase 1020.495ms
+[31.721s][info][gc,phases,start] GC(21) Summary Phase
+[31.721s][info][gc,phases      ] GC(21) Summary Phase 0.021ms
+[31.721s][info][gc,phases,start] GC(21) Adjust Roots
+[31.723s][info][gc,phases      ] GC(21) Adjust Roots 2.610ms
+[31.723s][info][gc,phases,start] GC(21) Compaction Phase
+[31.762s][info][gc,phases      ] GC(21) Compaction Phase 39.140ms
+[31.763s][info][gc,phases,start] GC(21) Post Compact
+[31.766s][info][gc,phases      ] GC(21) Post Compact 2.999ms
+[31.766s][info][gc,heap        ] GC(21) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[31.766s][info][gc,heap        ] GC(21) ParOldGen: 349357K(349696K)->349357K(349696K)
+[31.766s][info][gc,metaspace   ] GC(21) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[31.766s][info][gc             ] GC(21) Pause Full (Ergonomics) 469M->469M(491M) 1065.676ms
+[31.766s][info][gc,cpu         ] GC(21) User=11.53s Sys=0.00s Real=1.06s
+[31.766s][info][gc,start       ] GC(22) Pause Full (Ergonomics)
+[31.766s][info][gc,phases,start] GC(22) Marking Phase
+[32.796s][info][gc,phases      ] GC(22) Marking Phase 1029.804ms
+[32.796s][info][gc,phases,start] GC(22) Summary Phase
+[32.796s][info][gc,phases      ] GC(22) Summary Phase 0.022ms
+[32.796s][info][gc,phases,start] GC(22) Adjust Roots
+[32.798s][info][gc,phases      ] GC(22) Adjust Roots 2.447ms
+[32.798s][info][gc,phases,start] GC(22) Compaction Phase
+[32.833s][info][gc,phases      ] GC(22) Compaction Phase 35.028ms
+[32.834s][info][gc,phases,start] GC(22) Post Compact
+[32.836s][info][gc,phases      ] GC(22) Post Compact 2.351ms
+[32.836s][info][gc,heap        ] GC(22) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[32.836s][info][gc,heap        ] GC(22) ParOldGen: 349359K(349696K)->349359K(349696K)
+[32.836s][info][gc,metaspace   ] GC(22) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[32.836s][info][gc             ] GC(22) Pause Full (Ergonomics) 469M->469M(491M) 1069.901ms
+[32.836s][info][gc,cpu         ] GC(22) User=11.86s Sys=0.00s Real=1.08s
+[32.836s][info][gc,start       ] GC(23) Pause Full (Ergonomics)
+[32.836s][info][gc,phases,start] GC(23) Marking Phase
+[33.857s][info][gc,phases      ] GC(23) Marking Phase 1020.559ms
+[33.857s][info][gc,phases,start] GC(23) Summary Phase
+[33.857s][info][gc,phases      ] GC(23) Summary Phase 0.022ms
+[33.857s][info][gc,phases,start] GC(23) Adjust Roots
+[33.859s][info][gc,phases      ] GC(23) Adjust Roots 2.409ms
+[33.859s][info][gc,phases,start] GC(23) Compaction Phase
+[33.896s][info][gc,phases      ] GC(23) Compaction Phase 36.613ms
+[33.896s][info][gc,phases,start] GC(23) Post Compact
+[33.898s][info][gc,phases      ] GC(23) Post Compact 2.302ms
+[33.898s][info][gc,heap        ] GC(23) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[33.898s][info][gc,heap        ] GC(23) ParOldGen: 349361K(349696K)->349360K(349696K)
+[33.898s][info][gc,metaspace   ] GC(23) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[33.898s][info][gc             ] GC(23) Pause Full (Ergonomics) 469M->469M(491M) 1062.173ms
+[33.898s][info][gc,cpu         ] GC(23) User=11.53s Sys=0.00s Real=1.06s
+[33.899s][info][gc,start       ] GC(24) Pause Full (Ergonomics)
+[33.899s][info][gc,phases,start] GC(24) Marking Phase
+[34.924s][info][gc,phases      ] GC(24) Marking Phase 1025.176ms
+[34.924s][info][gc,phases,start] GC(24) Summary Phase
+[34.924s][info][gc,phases      ] GC(24) Summary Phase 0.021ms
+[34.924s][info][gc,phases,start] GC(24) Adjust Roots
+[34.927s][info][gc,phases      ] GC(24) Adjust Roots 2.452ms
+[34.927s][info][gc,phases,start] GC(24) Compaction Phase
+[34.967s][info][gc,phases      ] GC(24) Compaction Phase 40.179ms
+[34.967s][info][gc,phases,start] GC(24) Post Compact
+[34.970s][info][gc,phases      ] GC(24) Post Compact 3.007ms
+[34.970s][info][gc,heap        ] GC(24) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[34.970s][info][gc,heap        ] GC(24) ParOldGen: 349362K(349696K)->349362K(349696K)
+[34.970s][info][gc,metaspace   ] GC(24) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[34.970s][info][gc             ] GC(24) Pause Full (Ergonomics) 469M->469M(491M) 1071.242ms
+[34.970s][info][gc,cpu         ] GC(24) User=11.69s Sys=0.00s Real=1.07s
+[34.970s][info][gc,start       ] GC(25) Pause Full (Ergonomics)
+[34.970s][info][gc,phases,start] GC(25) Marking Phase
+[35.982s][info][gc,phases      ] GC(25) Marking Phase 1011.773ms
+[35.982s][info][gc,phases,start] GC(25) Summary Phase
+[35.982s][info][gc,phases      ] GC(25) Summary Phase 0.022ms
+[35.982s][info][gc,phases,start] GC(25) Adjust Roots
+[35.985s][info][gc,phases      ] GC(25) Adjust Roots 2.904ms
+[35.985s][info][gc,phases,start] GC(25) Compaction Phase
+[36.020s][info][gc,phases      ] GC(25) Compaction Phase 34.541ms
+[36.020s][info][gc,phases,start] GC(25) Post Compact
+[36.022s][info][gc,phases      ] GC(25) Post Compact 2.312ms
+[36.022s][info][gc,heap        ] GC(25) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[36.022s][info][gc,heap        ] GC(25) ParOldGen: 349364K(349696K)->349363K(349696K)
+[36.022s][info][gc,metaspace   ] GC(25) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[36.022s][info][gc             ] GC(25) Pause Full (Ergonomics) 469M->469M(491M) 1051.818ms
+[36.022s][info][gc,cpu         ] GC(25) User=11.69s Sys=0.00s Real=1.06s
+[36.022s][info][gc,start       ] GC(26) Pause Full (Ergonomics)
+[36.022s][info][gc,phases,start] GC(26) Marking Phase
+[37.071s][info][gc,phases      ] GC(26) Marking Phase 1048.355ms
+[37.071s][info][gc,phases,start] GC(26) Summary Phase
+[37.071s][info][gc,phases      ] GC(26) Summary Phase 0.022ms
+[37.071s][info][gc,phases,start] GC(26) Adjust Roots
+[37.073s][info][gc,phases      ] GC(26) Adjust Roots 2.405ms
+[37.073s][info][gc,phases,start] GC(26) Compaction Phase
+[37.111s][info][gc,phases      ] GC(26) Compaction Phase 37.602ms
+[37.111s][info][gc,phases,start] GC(26) Post Compact
+[37.113s][info][gc,phases      ] GC(26) Post Compact 2.306ms
+[37.113s][info][gc,heap        ] GC(26) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[37.113s][info][gc,heap        ] GC(26) ParOldGen: 349365K(349696K)->349365K(349696K)
+[37.113s][info][gc,metaspace   ] GC(26) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[37.113s][info][gc             ] GC(26) Pause Full (Ergonomics) 469M->469M(491M) 1090.946ms
+[37.113s][info][gc,cpu         ] GC(26) User=11.98s Sys=0.00s Real=1.09s
+[37.114s][info][gc,start       ] GC(27) Pause Full (Ergonomics)
+[37.114s][info][gc,phases,start] GC(27) Marking Phase
+[38.142s][info][gc,phases      ] GC(27) Marking Phase 1028.543ms
+[38.142s][info][gc,phases,start] GC(27) Summary Phase
+[38.142s][info][gc,phases      ] GC(27) Summary Phase 0.022ms
+[38.142s][info][gc,phases,start] GC(27) Adjust Roots
+[38.145s][info][gc,phases      ] GC(27) Adjust Roots 2.446ms
+[38.145s][info][gc,phases,start] GC(27) Compaction Phase
+[38.183s][info][gc,phases      ] GC(27) Compaction Phase 38.480ms
+[38.183s][info][gc,phases,start] GC(27) Post Compact
+[38.186s][info][gc,phases      ] GC(27) Post Compact 2.320ms
+[38.186s][info][gc,heap        ] GC(27) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[38.186s][info][gc,heap        ] GC(27) ParOldGen: 349367K(349696K)->349366K(349696K)
+[38.186s][info][gc,metaspace   ] GC(27) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[38.186s][info][gc             ] GC(27) Pause Full (Ergonomics) 469M->469M(491M) 1072.139ms
+[38.186s][info][gc,cpu         ] GC(27) User=11.53s Sys=0.00s Real=1.06s
+[38.186s][info][gc,start       ] GC(28) Pause Full (Ergonomics)
+[38.186s][info][gc,phases,start] GC(28) Marking Phase
+[39.214s][info][gc,phases      ] GC(28) Marking Phase 1027.924ms
+[39.214s][info][gc,phases,start] GC(28) Summary Phase
+[39.214s][info][gc,phases      ] GC(28) Summary Phase 0.021ms
+[39.214s][info][gc,phases,start] GC(28) Adjust Roots
+[39.216s][info][gc,phases      ] GC(28) Adjust Roots 2.423ms
+[39.216s][info][gc,phases,start] GC(28) Compaction Phase
+[39.253s][info][gc,phases      ] GC(28) Compaction Phase 36.754ms
+[39.253s][info][gc,phases,start] GC(28) Post Compact
+[39.256s][info][gc,phases      ] GC(28) Post Compact 2.302ms
+[39.256s][info][gc,heap        ] GC(28) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[39.256s][info][gc,heap        ] GC(28) ParOldGen: 349368K(349696K)->349368K(349696K)
+[39.256s][info][gc,metaspace   ] GC(28) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[39.256s][info][gc             ] GC(28) Pause Full (Ergonomics) 469M->469M(491M) 1069.641ms
+[39.256s][info][gc,cpu         ] GC(28) User=11.70s Sys=0.00s Real=1.08s
+[39.256s][info][gc,start       ] GC(29) Pause Full (Ergonomics)
+[39.256s][info][gc,phases,start] GC(29) Marking Phase
+[40.282s][info][gc,phases      ] GC(29) Marking Phase 1026.057ms
+[40.282s][info][gc,phases,start] GC(29) Summary Phase
+[40.282s][info][gc,phases      ] GC(29) Summary Phase 0.021ms
+[40.282s][info][gc,phases,start] GC(29) Adjust Roots
+[40.284s][info][gc,phases      ] GC(29) Adjust Roots 2.376ms
+[40.284s][info][gc,phases,start] GC(29) Compaction Phase
+[40.325s][info][gc,phases      ] GC(29) Compaction Phase 40.730ms
+[40.325s][info][gc,phases,start] GC(29) Post Compact
+[40.327s][info][gc,phases      ] GC(29) Post Compact 2.304ms
+[40.328s][info][gc,heap        ] GC(29) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[40.328s][info][gc,heap        ] GC(29) ParOldGen: 349373K(349696K)->349373K(349696K)
+[40.328s][info][gc,metaspace   ] GC(29) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[40.328s][info][gc             ] GC(29) Pause Full (Ergonomics) 469M->469M(491M) 1071.721ms
+[40.328s][info][gc,cpu         ] GC(29) User=11.53s Sys=0.00s Real=1.07s
+[40.328s][info][gc,start       ] GC(30) Pause Full (Ergonomics)
+[40.328s][info][gc,phases,start] GC(30) Marking Phase
+[41.385s][info][gc,phases      ] GC(30) Marking Phase 1057.220ms
+[41.385s][info][gc,phases,start] GC(30) Summary Phase
+[41.385s][info][gc,phases      ] GC(30) Summary Phase 0.022ms
+[41.385s][info][gc,phases,start] GC(30) Adjust Roots
+[41.387s][info][gc,phases      ] GC(30) Adjust Roots 2.373ms
+[41.387s][info][gc,phases,start] GC(30) Compaction Phase
+[41.424s][info][gc,phases      ] GC(30) Compaction Phase 36.992ms
+[41.425s][info][gc,phases,start] GC(30) Post Compact
+[41.427s][info][gc,phases      ] GC(30) Post Compact 2.302ms
+[41.427s][info][gc,heap        ] GC(30) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[41.427s][info][gc,heap        ] GC(30) ParOldGen: 349377K(349696K)->349376K(349696K)
+[41.427s][info][gc,metaspace   ] GC(30) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[41.427s][info][gc             ] GC(30) Pause Full (Ergonomics) 469M->469M(491M) 1099.121ms
+[41.427s][info][gc,cpu         ] GC(30) User=12.20s Sys=0.00s Real=1.11s
+[41.427s][info][gc,start       ] GC(31) Pause Full (Ergonomics)
+[41.427s][info][gc,phases,start] GC(31) Marking Phase
+[42.477s][info][gc,phases      ] GC(31) Marking Phase 1049.472ms
+[42.477s][info][gc,phases,start] GC(31) Summary Phase
+[42.477s][info][gc,phases      ] GC(31) Summary Phase 0.023ms
+[42.477s][info][gc,phases,start] GC(31) Adjust Roots
+[42.479s][info][gc,phases      ] GC(31) Adjust Roots 2.417ms
+[42.479s][info][gc,phases,start] GC(31) Compaction Phase
+[42.520s][info][gc,phases      ] GC(31) Compaction Phase 41.043ms
+[42.520s][info][gc,phases,start] GC(31) Post Compact
+[42.523s][info][gc,phases      ] GC(31) Post Compact 2.294ms
+[42.523s][info][gc,heap        ] GC(31) PSYoungGen: 131584K(153088K)->131584K(153088K) Eden: 131584K(131584K)->131584K(131584K) From: 0K(21504K)->0K(21504K)
+[42.523s][info][gc,heap        ] GC(31) ParOldGen: 349378K(349696K)->349378K(349696K)
+[42.523s][info][gc,metaspace   ] GC(31) Metaspace: 42256K(42688K)->42256K(42688K) NonClass: 36952K(37184K)->36952K(37184K) Class: 5303K(5504K)->5303K(5504K)
+[42.523s][info][gc             ] GC(31) Pause Full (Ergonomics) 469M->469M(491M) 1095.475ms
+[42.523s][info][gc,cpu         ] GC(31) User=12.03s Sys=0.00s Real=1.09s
+[42.523s][info][gc,start       ] GC(32) Pause Full (Ergonomics)
+[42.523s][info][gc,phases,start] GC(32) Marking Phase
+[43.545s][info][gc,phases      ] GC(32) Marking Phase 1021.968ms
+[43.545s][info][gc,phases,start] GC(32) Summary Phase
+[43.545s][info][gc,phases      ] GC(32) Summary Phase 0.023ms
+[43.545s][info][gc,phases,start] GC(32) Adjust Roots
+[43.548s][info][gc,phases      ] GC(32) Adjust Roots 3.149ms
+[43.548s][info][gc,phases,start] GC(32) Compaction Phase
+[43.716s][info][gc,phases      ] GC(32) Compaction Phase 167.998ms
+[43.716s][info][gc,phases,start] GC(32) Post Compact
+[43.719s][info][gc,phases      ] GC(32) Post Compact 3.107ms
+[43.719s][info][gc,heap        ] GC(32) PSYoungGen: 131584K(153088K)->131071K(153088K) Eden: 131584K(131584K)->131071K(131584K) From: 0K(21504K)->0K(21504K)
+[43.719s][info][gc,heap        ] GC(32) ParOldGen: 349383K(349696K)->349238K(349696K)
+[43.719s][info][gc,metaspace   ] GC(32) Metaspace: 42256K(42688K)->42234K(42688K) NonClass: 36952K(37184K)->36937K(37184K) Class: 5303K(5504K)->5297K(5504K)
+[43.720s][info][gc             ] GC(32) Pause Full (Ergonomics) 469M->469M(491M) 1196.668ms
+[43.720s][info][gc,cpu         ] GC(32) User=11.70s Sys=0.00s Real=1.20s
+[43.722s][info][gc,start       ] GC(33) Pause Full (Ergonomics)
+[43.722s][info][gc,phases,start] GC(33) Marking Phase
+[44.980s][info][gc,phases      ] GC(33) Marking Phase 1258.909ms
+[44.981s][info][gc,phases,start] GC(33) Summary Phase
+[44.981s][info][gc,phases      ] GC(33) Summary Phase 0.025ms
+[44.981s][info][gc,phases,start] GC(33) Adjust Roots
+[44.983s][info][gc,phases      ] GC(33) Adjust Roots 2.657ms
+[44.983s][info][gc,phases,start] GC(33) Compaction Phase
+[45.032s][info][gc,phases      ] GC(33) Compaction Phase 48.535ms
+[45.032s][info][gc,phases,start] GC(33) Post Compact
+[45.035s][info][gc,phases      ] GC(33) Post Compact 3.000ms
+[45.035s][info][gc,heap        ] GC(33) PSYoungGen: 131584K(153088K)->131450K(153088K) Eden: 131584K(131584K)->131450K(131584K) From: 0K(21504K)->0K(21504K)
+[45.035s][info][gc,heap        ] GC(33) ParOldGen: 349239K(349696K)->349229K(349696K)
+[45.035s][info][gc,metaspace   ] GC(33) Metaspace: 42240K(42688K)->42240K(42688K) NonClass: 36940K(37184K)->36940K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[45.035s][info][gc             ] GC(33) Pause Full (Ergonomics) 469M->469M(491M) 1313.533ms
+[45.035s][info][gc,cpu         ] GC(33) User=14.28s Sys=0.00s Real=1.31s
+[45.036s][info][gc,start       ] GC(34) Pause Full (Ergonomics)
+[45.036s][info][gc,phases,start] GC(34) Marking Phase
+[46.043s][info][gc,phases      ] GC(34) Marking Phase 1007.135ms
+[46.043s][info][gc,phases,start] GC(34) Summary Phase
+[46.043s][info][gc,phases      ] GC(34) Summary Phase 0.022ms
+[46.043s][info][gc,phases,start] GC(34) Adjust Roots
+[46.045s][info][gc,phases      ] GC(34) Adjust Roots 2.433ms
+[46.045s][info][gc,phases,start] GC(34) Compaction Phase
+[46.084s][info][gc,phases      ] GC(34) Compaction Phase 38.643ms
+[46.084s][info][gc,phases,start] GC(34) Post Compact
+[46.086s][info][gc,phases      ] GC(34) Post Compact 2.347ms
+[46.086s][info][gc,heap        ] GC(34) PSYoungGen: 131584K(153088K)->131454K(153088K) Eden: 131584K(131584K)->131454K(131584K) From: 0K(21504K)->0K(21504K)
+[46.086s][info][gc,heap        ] GC(34) ParOldGen: 349229K(349696K)->349229K(349696K)
+[46.086s][info][gc,metaspace   ] GC(34) Metaspace: 42240K(42688K)->42240K(42688K) NonClass: 36940K(37184K)->36940K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[46.086s][info][gc             ] GC(34) Pause Full (Ergonomics) 469M->469M(491M) 1050.907ms
+[46.086s][info][gc,cpu         ] GC(34) User=11.20s Sys=0.00s Real=1.06s
+[46.087s][info][gc,start       ] GC(35) Pause Full (Ergonomics)
+[46.087s][info][gc,phases,start] GC(35) Marking Phase
+[47.103s][info][gc,phases      ] GC(35) Marking Phase 1016.250ms
+[47.103s][info][gc,phases,start] GC(35) Summary Phase
+[47.103s][info][gc,phases      ] GC(35) Summary Phase 0.022ms
+[47.103s][info][gc,phases,start] GC(35) Adjust Roots
+[47.105s][info][gc,phases      ] GC(35) Adjust Roots 2.385ms
+[47.105s][info][gc,phases,start] GC(35) Compaction Phase
+[47.142s][info][gc,phases      ] GC(35) Compaction Phase 36.744ms
+[47.142s][info][gc,phases,start] GC(35) Post Compact
+[47.145s][info][gc,phases      ] GC(35) Post Compact 2.298ms
+[47.145s][info][gc,heap        ] GC(35) PSYoungGen: 131584K(153088K)->131454K(153088K) Eden: 131584K(131584K)->131454K(131584K) From: 0K(21504K)->0K(21504K)
+[47.145s][info][gc,heap        ] GC(35) ParOldGen: 349230K(349696K)->349230K(349696K)
+[47.145s][info][gc,metaspace   ] GC(35) Metaspace: 42240K(42688K)->42240K(42688K) NonClass: 36941K(37184K)->36941K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[47.145s][info][gc             ] GC(35) Pause Full (Ergonomics) 469M->469M(491M) 1057.915ms
+[47.145s][info][gc,cpu         ] GC(35) User=11.36s Sys=0.00s Real=1.04s
+[47.145s][info][gc,start       ] GC(36) Pause Full (Ergonomics)
+[47.145s][info][gc,phases,start] GC(36) Marking Phase
+[48.166s][info][gc,phases      ] GC(36) Marking Phase 1021.585ms
+[48.166s][info][gc,phases,start] GC(36) Summary Phase
+[48.166s][info][gc,phases      ] GC(36) Summary Phase 0.021ms
+[48.166s][info][gc,phases,start] GC(36) Adjust Roots
+[48.169s][info][gc,phases      ] GC(36) Adjust Roots 2.419ms
+[48.169s][info][gc,phases,start] GC(36) Compaction Phase
+[48.206s][info][gc,phases      ] GC(36) Compaction Phase 37.440ms
+[48.206s][info][gc,phases,start] GC(36) Post Compact
+[48.209s][info][gc,phases      ] GC(36) Post Compact 2.853ms
+[48.209s][info][gc,heap        ] GC(36) PSYoungGen: 131584K(153088K)->131458K(153088K) Eden: 131584K(131584K)->131458K(131584K) From: 0K(21504K)->0K(21504K)
+[48.209s][info][gc,heap        ] GC(36) ParOldGen: 349230K(349696K)->349230K(349696K)
+[48.209s][info][gc,metaspace   ] GC(36) Metaspace: 42240K(42688K)->42240K(42688K) NonClass: 36941K(37184K)->36941K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[48.209s][info][gc             ] GC(36) Pause Full (Ergonomics) 469M->469M(491M) 1064.633ms
+[48.209s][info][gc,cpu         ] GC(36) User=11.70s Sys=0.00s Real=1.08s
+[48.210s][info][gc,start       ] GC(37) Pause Full (Ergonomics)
+[48.210s][info][gc,phases,start] GC(37) Marking Phase
+[49.248s][info][gc,phases      ] GC(37) Marking Phase 1037.804ms
+[49.248s][info][gc,phases,start] GC(37) Summary Phase
+[49.248s][info][gc,phases      ] GC(37) Summary Phase 0.023ms
+[49.248s][info][gc,phases,start] GC(37) Adjust Roots
+[49.250s][info][gc,phases      ] GC(37) Adjust Roots 2.430ms
+[49.250s][info][gc,phases,start] GC(37) Compaction Phase
+[49.286s][info][gc,phases      ] GC(37) Compaction Phase 35.396ms
+[49.286s][info][gc,phases,start] GC(37) Post Compact
+[49.288s][info][gc,phases      ] GC(37) Post Compact 2.296ms
+[49.288s][info][gc,heap        ] GC(37) PSYoungGen: 131584K(153088K)->131474K(153088K) Eden: 131584K(131584K)->131474K(131584K) From: 0K(21504K)->0K(21504K)
+[49.288s][info][gc,heap        ] GC(37) ParOldGen: 349230K(349696K)->349230K(349696K)
+[49.288s][info][gc,metaspace   ] GC(37) Metaspace: 42240K(42688K)->42240K(42688K) NonClass: 36941K(37184K)->36941K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[49.288s][info][gc             ] GC(37) Pause Full (Ergonomics) 469M->469M(491M) 1078.218ms
+[49.288s][info][gc,cpu         ] GC(37) User=11.70s Sys=0.00s Real=1.07s
+[49.288s][info][gc,start       ] GC(38) Pause Full (Ergonomics)
+[49.288s][info][gc,phases,start] GC(38) Marking Phase
+[50.306s][info][gc,phases      ] GC(38) Marking Phase 1017.475ms
+[50.306s][info][gc,phases,start] GC(38) Summary Phase
+[50.306s][info][gc,phases      ] GC(38) Summary Phase 0.022ms
+[50.306s][info][gc,phases,start] GC(38) Adjust Roots
+[50.308s][info][gc,phases      ] GC(38) Adjust Roots 2.436ms
+[50.308s][info][gc,phases,start] GC(38) Compaction Phase
+[50.345s][info][gc,phases      ] GC(38) Compaction Phase 37.004ms
+[50.345s][info][gc,phases,start] GC(38) Post Compact
+[50.348s][info][gc,phases      ] GC(38) Post Compact 2.299ms
+[50.348s][info][gc,heap        ] GC(38) PSYoungGen: 131584K(153088K)->131516K(153088K) Eden: 131584K(131584K)->131516K(131584K) From: 0K(21504K)->0K(21504K)
+[50.348s][info][gc,heap        ] GC(38) ParOldGen: 349232K(349696K)->349232K(349696K)
+[50.348s][info][gc,metaspace   ] GC(38) Metaspace: 42240K(42688K)->42240K(42688K) NonClass: 36941K(37184K)->36941K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[50.348s][info][gc             ] GC(38) Pause Full (Ergonomics) 469M->469M(491M) 1059.458ms
+[50.348s][info][gc,cpu         ] GC(38) User=11.36s Sys=0.00s Real=1.06s
+[50.348s][info][gc,start       ] GC(39) Pause Full (Ergonomics)
+[50.348s][info][gc,phases,start] GC(39) Marking Phase
+[51.368s][info][gc,phases      ] GC(39) Marking Phase 1020.319ms
+[51.368s][info][gc,phases,start] GC(39) Summary Phase
+[51.368s][info][gc,phases      ] GC(39) Summary Phase 0.021ms
+[51.368s][info][gc,phases,start] GC(39) Adjust Roots
+[51.371s][info][gc,phases      ] GC(39) Adjust Roots 2.433ms
+[51.371s][info][gc,phases,start] GC(39) Compaction Phase
+[51.411s][info][gc,phases      ] GC(39) Compaction Phase 39.704ms
+[51.411s][info][gc,phases,start] GC(39) Post Compact
+[51.414s][info][gc,phases      ] GC(39) Post Compact 3.014ms
+[51.414s][info][gc,heap        ] GC(39) PSYoungGen: 131584K(153088K)->131535K(153088K) Eden: 131584K(131584K)->131535K(131584K) From: 0K(21504K)->0K(21504K)
+[51.414s][info][gc,heap        ] GC(39) ParOldGen: 349232K(349696K)->349232K(349696K)
+[51.414s][info][gc,metaspace   ] GC(39) Metaspace: 42241K(42688K)->42241K(42688K) NonClass: 36942K(37184K)->36942K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[51.414s][info][gc             ] GC(39) Pause Full (Ergonomics) 469M->469M(491M) 1065.832ms
+[51.414s][info][gc,cpu         ] GC(39) User=11.55s Sys=0.00s Real=1.08s
+[51.414s][info][gc,start       ] GC(40) Pause Full (Ergonomics)
+[51.414s][info][gc,phases,start] GC(40) Marking Phase
+[52.448s][info][gc,phases      ] GC(40) Marking Phase 1033.348ms
+[52.448s][info][gc,phases,start] GC(40) Summary Phase
+[52.448s][info][gc,phases      ] GC(40) Summary Phase 0.022ms
+[52.448s][info][gc,phases,start] GC(40) Adjust Roots
+[52.450s][info][gc,phases      ] GC(40) Adjust Roots 2.417ms
+[52.450s][info][gc,phases,start] GC(40) Compaction Phase
+[52.487s][info][gc,phases      ] GC(40) Compaction Phase 36.999ms
+[52.487s][info][gc,phases,start] GC(40) Post Compact
+[52.490s][info][gc,phases      ] GC(40) Post Compact 2.307ms
+[52.490s][info][gc,heap        ] GC(40) PSYoungGen: 131584K(153088K)->131554K(153088K) Eden: 131584K(131584K)->131554K(131584K) From: 0K(21504K)->0K(21504K)
+[52.490s][info][gc,heap        ] GC(40) ParOldGen: 349232K(349696K)->349232K(349696K)
+[52.490s][info][gc,metaspace   ] GC(40) Metaspace: 42241K(42688K)->42241K(42688K) NonClass: 36942K(37184K)->36942K(37184K) Class: 5299K(5504K)->5299K(5504K)
+[52.490s][info][gc             ] GC(40) Pause Full (Ergonomics) 469M->469M(491M) 1075.331ms
+[52.490s][info][gc,cpu         ] GC(40) User=11.75s Sys=0.00s Real=1.08s
+[52.490s][info][gc,start       ] GC(41) Pause Full (Ergonomics)
+[52.490s][info][gc,phases,start] GC(41) Marking Phase
+[53.545s][info][gc,phases      ] GC(41) Marking Phase 1055.186ms
+[53.545s][info][gc,phases,start] GC(41) Summary Phase
+[53.545s][info][gc,phases      ] GC(41) Summary Phase 0.023ms
+[53.545s][info][gc,phases,start] GC(41) Adjust Roots
+[53.549s][info][gc,phases      ] GC(41) Adjust Roots 3.449ms
+[53.549s][info][gc,phases,start] GC(41) Compaction Phase
+[53.720s][info][gc,phases      ] GC(41) Compaction Phase 171.743ms
+[53.721s][info][gc,phases,start] GC(41) Post Compact
+[53.724s][info][gc,phases      ] GC(41) Post Compact 3.135ms
+[53.724s][info][gc,heap        ] GC(41) PSYoungGen: 131583K(153088K)->131057K(153088K) Eden: 131583K(131584K)->131057K(131584K) From: 0K(21504K)->0K(21504K)
+[53.724s][info][gc,heap        ] GC(41) ParOldGen: 349232K(349696K)->349440K(349696K)
+[53.724s][info][gc,metaspace   ] GC(41) Metaspace: 42241K(42688K)->42201K(42688K) NonClass: 36942K(37184K)->36913K(37184K) Class: 5299K(5504K)->5287K(5504K)
+[53.724s][info][gc             ] GC(41) Pause Full (Ergonomics) 469M->469M(491M) 1233.920ms
+[53.724s][info][gc,cpu         ] GC(41) User=12.17s Sys=0.00s Real=1.23s
+[53.726s][info][gc,start       ] GC(42) Pause Full (Ergonomics)
+[53.726s][info][gc,phases,start] GC(42) Marking Phase
+[54.785s][info][gc,phases      ] GC(42) Marking Phase 1059.412ms
+[54.785s][info][gc,phases,start] GC(42) Summary Phase
+[54.785s][info][gc,phases      ] GC(42) Summary Phase 0.022ms
+[54.785s][info][gc,phases,start] GC(42) Adjust Roots
+[54.790s][info][gc,phases      ] GC(42) Adjust Roots 4.479ms
+[54.790s][info][gc,phases,start] GC(42) Compaction Phase
+[54.911s][info][gc,phases      ] GC(42) Compaction Phase 120.650ms
+[54.911s][info][gc,phases,start] GC(42) Post Compact
+[54.914s][info][gc,phases      ] GC(42) Post Compact 3.086ms
+[54.914s][info][gc,heap        ] GC(42) PSYoungGen: 131584K(153088K)->130497K(153088K) Eden: 131584K(131584K)->130497K(131584K) From: 0K(21504K)->0K(21504K)
+[54.914s][info][gc,heap        ] GC(42) ParOldGen: 349440K(349696K)->349666K(349696K)
+[54.914s][info][gc,metaspace   ] GC(42) Metaspace: 42219K(42688K)->42202K(42688K) NonClass: 36929K(37184K)->36916K(37184K) Class: 5289K(5504K)->5285K(5504K)
+[54.914s][info][gc             ] GC(42) Pause Full (Ergonomics) 469M->468M(491M) 1188.065ms
+[54.914s][info][gc,cpu         ] GC(42) User=12.36s Sys=0.00s Real=1.19s
+[54.917s][info][gc,start       ] GC(43) Pause Full (Ergonomics)
+[54.917s][info][gc,phases,start] GC(43) Marking Phase
+[55.985s][info][gc,phases      ] GC(43) Marking Phase 1068.089ms
+[55.985s][info][gc,phases,start] GC(43) Summary Phase
+[55.985s][info][gc,phases      ] GC(43) Summary Phase 0.023ms
+[55.985s][info][gc,phases,start] GC(43) Adjust Roots
+[55.988s][info][gc,phases      ] GC(43) Adjust Roots 2.775ms
+[55.988s][info][gc,phases,start] GC(43) Compaction Phase
+[56.035s][info][gc,phases      ] GC(43) Compaction Phase 46.661ms
+[56.035s][info][gc,phases,start] GC(43) Post Compact
+[56.037s][info][gc,phases      ] GC(43) Post Compact 2.340ms
+[56.037s][info][gc,heap        ] GC(43) PSYoungGen: 131584K(153088K)->131306K(153088K) Eden: 131584K(131584K)->131306K(131584K) From: 0K(21504K)->0K(21504K)
+[56.037s][info][gc,heap        ] GC(43) ParOldGen: 349666K(349696K)->349665K(349696K)
+[56.037s][info][gc,metaspace   ] GC(43) Metaspace: 42234K(42688K)->42233K(42688K) NonClass: 36942K(37184K)->36941K(37184K) Class: 5292K(5504K)->5291K(5504K)
+[56.037s][info][gc             ] GC(43) Pause Full (Ergonomics) 469M->469M(491M) 1120.166ms
+[56.037s][info][gc,cpu         ] GC(43) User=12.05s Sys=0.00s Real=1.11s
+[56.038s][info][gc,start       ] GC(44) Pause Full (Ergonomics)
+[56.038s][info][gc,phases,start] GC(44) Marking Phase
+[57.068s][info][gc,phases      ] GC(44) Marking Phase 1029.845ms
+[57.068s][info][gc,phases,start] GC(44) Summary Phase
+[57.068s][info][gc,phases      ] GC(44) Summary Phase 0.022ms
+[57.068s][info][gc,phases,start] GC(44) Adjust Roots
+[57.070s][info][gc,phases      ] GC(44) Adjust Roots 2.485ms
+[57.070s][info][gc,phases,start] GC(44) Compaction Phase
+[57.109s][info][gc,phases      ] GC(44) Compaction Phase 38.866ms
+[57.109s][info][gc,phases,start] GC(44) Post Compact
+[57.111s][info][gc,phases      ] GC(44) Post Compact 2.273ms
+[57.112s][info][gc,heap        ] GC(44) PSYoungGen: 131583K(153088K)->131497K(153088K) Eden: 131583K(131584K)->131497K(131584K) From: 0K(21504K)->0K(21504K)
+[57.112s][info][gc,heap        ] GC(44) ParOldGen: 349665K(349696K)->349665K(349696K)
+[57.112s][info][gc,metaspace   ] GC(44) Metaspace: 42234K(42688K)->42234K(42688K) NonClass: 36942K(37184K)->36942K(37184K) Class: 5292K(5504K)->5292K(5504K)
+[57.112s][info][gc             ] GC(44) Pause Full (Ergonomics) 469M->469M(491M) 1073.722ms
+[57.112s][info][gc,cpu         ] GC(44) User=11.86s Sys=0.00s Real=1.08s
+[57.112s][info][gc,start       ] GC(45) Pause Full (Ergonomics)
+[57.112s][info][gc,phases,start] GC(45) Marking Phase
+[58.162s][info][gc,phases      ] GC(45) Marking Phase 1050.172ms
+[58.162s][info][gc,phases,start] GC(45) Summary Phase
+[58.162s][info][gc,phases      ] GC(45) Summary Phase 0.021ms
+[58.162s][info][gc,phases,start] GC(45) Adjust Roots
+[58.166s][info][gc,phases      ] GC(45) Adjust Roots 3.215ms
+[58.166s][info][gc,phases,start] GC(45) Compaction Phase
+[58.207s][info][gc,phases      ] GC(45) Compaction Phase 41.740ms
+[58.207s][info][gc,phases,start] GC(45) Post Compact
+[58.210s][info][gc,phases      ] GC(45) Post Compact 2.306ms
+[58.210s][info][gc,heap        ] GC(45) PSYoungGen: 131584K(153088K)->131555K(153088K) Eden: 131584K(131584K)->131555K(131584K) From: 0K(21504K)->0K(21504K)
+[58.210s][info][gc,heap        ] GC(45) ParOldGen: 349665K(349696K)->349665K(349696K)
+[58.210s][info][gc,metaspace   ] GC(45) Metaspace: 42234K(42688K)->42233K(42688K) NonClass: 36942K(37184K)->36941K(37184K) Class: 5292K(5504K)->5291K(5504K)
+[58.210s][info][gc             ] GC(45) Pause Full (Ergonomics) 469M->469M(491M) 1097.670ms
+[58.210s][info][gc,cpu         ] GC(45) User=11.88s Sys=0.00s Real=1.09s
+[58.210s][info][gc,start       ] GC(46) Pause Full (Ergonomics)
+[58.210s][info][gc,phases,start] GC(46) Marking Phase
+[59.236s][info][gc,phases      ] GC(46) Marking Phase 1025.935ms
+[59.236s][info][gc,phases,start] GC(46) Summary Phase
+[59.236s][info][gc,phases      ] GC(46) Summary Phase 0.023ms
+[59.236s][info][gc,phases,start] GC(46) Adjust Roots
+[59.239s][info][gc,phases      ] GC(46) Adjust Roots 2.489ms
+[59.239s][info][gc,phases,start] GC(46) Compaction Phase
+[59.274s][info][gc,phases      ] GC(46) Compaction Phase 35.427ms
+[59.274s][info][gc,phases,start] GC(46) Post Compact
+[59.276s][info][gc,phases      ] GC(46) Post Compact 2.307ms
+[59.276s][info][gc,heap        ] GC(46) PSYoungGen: 131584K(153088K)->131573K(153088K) Eden: 131584K(131584K)->131573K(131584K) From: 0K(21504K)->0K(21504K)
+[59.276s][info][gc,heap        ] GC(46) ParOldGen: 349667K(349696K)->349667K(349696K)
+[59.276s][info][gc,metaspace   ] GC(46) Metaspace: 42235K(42688K)->42235K(42688K) NonClass: 36942K(37184K)->36942K(37184K) Class: 5292K(5504K)->5292K(5504K)
+[59.276s][info][gc             ] GC(46) Pause Full (Ergonomics) 469M->469M(491M) 1066.415ms
+[59.276s][info][gc,cpu         ] GC(46) User=11.63s Sys=0.00s Real=1.08s
+[59.277s][info][gc,start       ] GC(47) Pause Full (Ergonomics)
+[59.277s][info][gc,phases,start] GC(47) Marking Phase
+[60.310s][info][gc,phases      ] GC(47) Marking Phase 1033.182ms
+[60.310s][info][gc,phases,start] GC(47) Summary Phase
+[60.310s][info][gc,phases      ] GC(47) Summary Phase 0.021ms
+[60.310s][info][gc,phases,start] GC(47) Adjust Roots
+[60.313s][info][gc,phases      ] GC(47) Adjust Roots 2.856ms
+[60.313s][info][gc,phases,start] GC(47) Compaction Phase
+[60.358s][info][gc,phases      ] GC(47) Compaction Phase 45.197ms
+[60.358s][info][gc,phases,start] GC(47) Post Compact
+[60.361s][info][gc,phases      ] GC(47) Post Compact 2.999ms
+[60.361s][info][gc,heap        ] GC(47) PSYoungGen: 131583K(153088K)->131578K(153088K) Eden: 131583K(131584K)->131578K(131584K) From: 0K(21504K)->0K(21504K)
+[60.361s][info][gc,heap        ] GC(47) ParOldGen: 349667K(349696K)->349665K(349696K)
+[60.361s][info][gc,metaspace   ] GC(47) Metaspace: 42236K(42688K)->42236K(42688K) NonClass: 36943K(37184K)->36943K(37184K) Class: 5292K(5504K)->5292K(5504K)
+[60.361s][info][gc             ] GC(47) Pause Full (Ergonomics) 469M->469M(491M) 1084.618ms
+[60.361s][info][gc,cpu         ] GC(47) User=11.84s Sys=0.00s Real=1.08s
+[60.362s][info][gc,start       ] GC(48) Pause Full (Ergonomics)
+[60.362s][info][gc,phases,start] GC(48) Marking Phase
+[60.376s][info][gc,phases      ] GC(48) Marking Phase 14.172ms
+[60.376s][info][gc,phases,start] GC(48) Summary Phase
+[60.376s][info][gc,phases      ] GC(48) Summary Phase 0.017ms
+[60.376s][info][gc,phases,start] GC(48) Adjust Roots
+[60.379s][info][gc,phases      ] GC(48) Adjust Roots 2.999ms
+[60.379s][info][gc,phases,start] GC(48) Compaction Phase
+[60.383s][info][gc,phases      ] GC(48) Compaction Phase 3.567ms
+[60.383s][info][gc,phases,start] GC(48) Post Compact
+[60.385s][info][gc,phases      ] GC(48) Post Compact 2.487ms
+[60.393s][info][gc,heap        ] GC(48) PSYoungGen: 131583K(153088K)->0K(153088K) Eden: 131583K(131584K)->0K(131584K) From: 0K(21504K)->0K(21504K)
+[60.393s][info][gc,heap        ] GC(48) ParOldGen: 349665K(349696K)->21987K(299520K)
+[60.394s][info][gc,metaspace   ] GC(48) Metaspace: 42241K(42688K)->42237K(42688K) NonClass: 36948K(37184K)->36945K(37184K) Class: 5292K(5504K)->5291K(5504K)
+[60.394s][info][gc             ] GC(48) Pause Full (Ergonomics) 469M->21M(442M) 31.540ms
+[60.394s][info][gc,cpu         ] GC(48) User=0.02s Sys=0.02s Real=0.03s
+[60.580s][info][gc,heap,exit   ] Heap
+[60.581s][info][gc,heap,exit   ]  PSYoungGen      total 153088K, used 50843K [0x00000000f5580000, 0x0000000100000000, 0x0000000100000000)
+[60.581s][info][gc,heap,exit   ]   eden space 131584K, 38% used [0x00000000f5580000,0x00000000f8726d28,0x00000000fd600000)
+[60.581s][info][gc,heap,exit   ]   from space 21504K, 0% used [0x00000000fd600000,0x00000000fd600000,0x00000000feb00000)
+[60.581s][info][gc,heap,exit   ]   to   space 21504K, 0% used [0x00000000feb00000,0x00000000feb00000,0x0000000100000000)
+[60.581s][info][gc,heap,exit   ]  ParOldGen       total 299520K, used 21987K [0x00000000e0000000, 0x00000000f2480000, 0x00000000f5580000)
+[60.581s][info][gc,heap,exit   ]   object space 299520K, 7% used [0x00000000e0000000,0x00000000e1578d30,0x00000000f2480000)
+[60.581s][info][gc,heap,exit   ]  Metaspace       used 43199K, committed 43584K, reserved 1114112K
+[60.581s][info][gc,heap,exit   ]   class space    used 5462K, committed 5632K, reserved 1048576K
