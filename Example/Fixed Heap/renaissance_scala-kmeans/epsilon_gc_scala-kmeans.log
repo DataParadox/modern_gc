@@ -1,0 +1,83 @@
+[0.017s][info][gc] Using Epsilon
+[0.023s][info][gc,init] Version: 20+36-2344 (release)
+[0.023s][info][gc,init] CPUs: 48 total, 48 available
+[0.023s][info][gc,init] Memory: 382G
+[0.023s][info][gc,init] Large Page Support: Disabled
+[0.023s][info][gc,init] NUMA Support: Disabled
+[0.023s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[0.023s][info][gc,init] Heap Min Capacity: 6656K
+[0.023s][info][gc,init] Heap Initial Capacity: 2G
+[0.023s][info][gc,init] Heap Max Capacity: 30718M
+[0.023s][info][gc,init] Pre-touch: Disabled
+[0.023s][warning][gc,init] Consider setting -Xms equal to -Xmx to avoid resizing hiccups
+[0.043s][warning][gc,init] Consider enabling -XX:+AlwaysPreTouch to avoid memory commit hiccups
+[0.043s][info   ][gc,init] TLAB Size Max: 4M
+[0.043s][info   ][gc,init] TLAB Size Elasticity: 1.10x
+[0.043s][info   ][gc,init] TLAB Size Decay Time: 1000ms
+[0.045s][info   ][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.045s][info   ][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.045s][info   ][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[1.216s][info   ][gc          ] GC request for "System.gc()" is ignored
+[1.610s][info   ][gc          ] GC request for "System.gc()" is ignored
+[1.854s][info   ][gc          ] GC request for "System.gc()" is ignored
+[2.123s][info   ][gc          ] GC request for "System.gc()" is ignored
+[2.454s][info   ][gc          ] GC request for "System.gc()" is ignored
+[2.781s][info   ][gc          ] GC request for "System.gc()" is ignored
+[3.097s][info   ][gc          ] GC request for "System.gc()" is ignored
+[3.425s][info   ][gc          ] GC request for "System.gc()" is ignored
+[3.741s][info   ][gc          ] GC request for "System.gc()" is ignored
+[4.071s][info   ][gc          ] GC request for "System.gc()" is ignored
+[4.408s][info   ][gc          ] GC request for "System.gc()" is ignored
+[4.737s][info   ][gc          ] GC request for "System.gc()" is ignored
+[5.060s][info   ][gc          ] GC request for "System.gc()" is ignored
+[5.390s][info   ][gc          ] GC request for "System.gc()" is ignored
+[5.712s][info   ][gc          ] Heap: 30718M reserved, 2048M (6.67%) committed, 1539M (5.01%) used
+[5.712s][info   ][gc,metaspace] Metaspace: 1088M reserved, 12416K (1.11%) committed, 12212K (1.10%) used
+[5.734s][info   ][gc          ] GC request for "System.gc()" is ignored
+[6.061s][info   ][gc          ] GC request for "System.gc()" is ignored
+[6.404s][info   ][gc          ] GC request for "System.gc()" is ignored
+[6.731s][info   ][gc          ] GC request for "System.gc()" is ignored
+[7.058s][info   ][gc          ] GC request for "System.gc()" is ignored
+[7.399s][info   ][gc          ] GC request for "System.gc()" is ignored
+[7.717s][info   ][gc          ] GC request for "System.gc()" is ignored
+[8.042s][info   ][gc          ] GC request for "System.gc()" is ignored
+[8.373s][info   ][gc          ] GC request for "System.gc()" is ignored
+[8.689s][info   ][gc          ] GC request for "System.gc()" is ignored
+[9.018s][info   ][gc          ] GC request for "System.gc()" is ignored
+[9.348s][info   ][gc          ] GC request for "System.gc()" is ignored
+[9.661s][info   ][gc          ] GC request for "System.gc()" is ignored
+[9.866s][info   ][gc          ] Heap: 30718M reserved, 3200M (10.42%) committed, 3075M (10.01%) used
+[9.866s][info   ][gc,metaspace] Metaspace: 1088M reserved, 12416K (1.11%) committed, 12257K (1.10%) used
+[9.990s][info   ][gc          ] GC request for "System.gc()" is ignored
+[10.304s][info   ][gc          ] GC request for "System.gc()" is ignored
+[10.618s][info   ][gc          ] GC request for "System.gc()" is ignored
+[10.934s][info   ][gc          ] GC request for "System.gc()" is ignored
+[11.247s][info   ][gc          ] GC request for "System.gc()" is ignored
+[11.561s][info   ][gc          ] GC request for "System.gc()" is ignored
+[11.875s][info   ][gc          ] GC request for "System.gc()" is ignored
+[12.189s][info   ][gc          ] GC request for "System.gc()" is ignored
+[12.530s][info   ][gc          ] GC request for "System.gc()" is ignored
+[12.855s][info   ][gc          ] GC request for "System.gc()" is ignored
+[13.171s][info   ][gc          ] GC request for "System.gc()" is ignored
+[13.486s][info   ][gc          ] GC request for "System.gc()" is ignored
+[13.800s][info   ][gc          ] GC request for "System.gc()" is ignored
+[13.886s][info   ][gc          ] Heap: 30718M reserved, 4736M (15.42%) committed, 4611M (15.01%) used
+[13.886s][info   ][gc,metaspace] Metaspace: 1088M reserved, 12480K (1.12%) committed, 12278K (1.10%) used
+[14.113s][info   ][gc          ] GC request for "System.gc()" is ignored
+[14.453s][info   ][gc          ] GC request for "System.gc()" is ignored
+[14.766s][info   ][gc          ] GC request for "System.gc()" is ignored
+[15.092s][info   ][gc          ] GC request for "System.gc()" is ignored
+[15.447s][info   ][gc          ] GC request for "System.gc()" is ignored
+[15.762s][info   ][gc          ] GC request for "System.gc()" is ignored
+[16.085s][info   ][gc          ] GC request for "System.gc()" is ignored
+[16.414s][info   ][gc          ] GC request for "System.gc()" is ignored
+[16.726s][info   ][gc          ] GC request for "System.gc()" is ignored
+[17.052s][info   ][gc          ] GC request for "System.gc()" is ignored
+[17.387s][info   ][gc,heap,exit] Heap
+[17.387s][info   ][gc,heap,exit] Epsilon Heap
+[17.387s][info   ][gc,heap,exit] Allocation space:
+[17.387s][info   ][gc,heap,exit]  space 6160384K,  98% used [0x0000000080200000, 0x00000001f1554f10, 0x00000001f8200000)
+[17.387s][info   ][gc,heap,exit]  Metaspace       used 12354K, committed 12608K, reserved 1114112K
+[17.387s][info   ][gc,heap,exit]   class space    used 1639K, committed 1728K, reserved 1048576K
+[17.387s][info   ][gc          ] Heap: 30718M reserved, 6016M (19.58%) committed, 5907M (19.23%) used
+[17.387s][info   ][gc,metaspace] Metaspace: 1088M reserved, 12608K (1.13%) committed, 12354K (1.11%) used
