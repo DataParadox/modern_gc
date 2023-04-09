@@ -1,0 +1,38 @@
+[0.018s][info][gc,init] CardTable entry size: 512
+[0.018s][info][gc     ] Using Serial
+[0.026s][info][gc,init] Version: 20+36-2344 (release)
+[0.026s][info][gc,init] CPUs: 48 total, 48 available
+[0.026s][info][gc,init] Memory: 382G
+[0.026s][info][gc,init] Large Page Support: Disabled
+[0.026s][info][gc,init] NUMA Support: Disabled
+[0.026s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[0.026s][info][gc,init] Heap Min Capacity: 8M
+[0.026s][info][gc,init] Heap Initial Capacity: 2G
+[0.026s][info][gc,init] Heap Max Capacity: 30718M
+[0.026s][info][gc,init] Pre-touch: Disabled
+[0.035s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.035s][info][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.035s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[1.825s][info][gc,start    ] GC(0) Pause Full (System.gc())
+[1.826s][info][gc,phases,start] GC(0) Phase 1: Mark live objects
+[1.830s][info][gc,phases      ] GC(0) Phase 1: Mark live objects 4.262ms
+[1.830s][info][gc,phases,start] GC(0) Phase 2: Compute new object addresses
+[1.832s][info][gc,phases      ] GC(0) Phase 2: Compute new object addresses 1.986ms
+[1.832s][info][gc,phases,start] GC(0) Phase 3: Adjust pointers
+[1.834s][info][gc,phases      ] GC(0) Phase 3: Adjust pointers 2.184ms
+[1.834s][info][gc,phases,start] GC(0) Phase 4: Move objects
+[1.836s][info][gc,phases      ] GC(0) Phase 4: Move objects 1.649ms
+[1.836s][info][gc,heap        ] GC(0) DefNew: 89477K(629120K)->0K(629248K) Eden: 89477K(559232K)->0K(559360K) From: 0K(69888K)->0K(69888K)
+[1.836s][info][gc,heap        ] GC(0) Tenured: 0K(1398144K)->1031K(1398144K)
+[1.836s][info][gc,metaspace   ] GC(0) Metaspace: 1064K(1216K)->1064K(1216K) NonClass: 987K(1088K)->987K(1088K) Class: 76K(128K)->76K(128K)
+[1.836s][info][gc             ] GC(0) Pause Full (System.gc()) 87M->1M(1979M) 10.907ms
+[1.836s][info][gc,cpu         ] GC(0) User=0.02s Sys=0.00s Real=0.02s
+[9.664s][info][gc,heap,exit   ] Heap
+[9.664s][info][gc,heap,exit   ]  def new generation   total 629248K, used 111872K [0x0000000080200000, 0x00000000aacc0000, 0x0000000300150000)
+[9.664s][info][gc,heap,exit   ]   eden space 559360K,  20% used [0x0000000080200000, 0x0000000086f402c8, 0x00000000a2440000)
+[9.664s][info][gc,heap,exit   ]   from space 69888K,   0% used [0x00000000a2440000, 0x00000000a2440000, 0x00000000a6880000)
+[9.664s][info][gc,heap,exit   ]   to   space 69888K,   0% used [0x00000000a6880000, 0x00000000a6880000, 0x00000000aacc0000)
+[9.664s][info][gc,heap,exit   ]  tenured generation   total 1398144K, used 1031K [0x0000000300150000, 0x00000003556b0000, 0x0000000800000000)
+[9.664s][info][gc,heap,exit   ]    the space 1398144K,   0% used [0x0000000300150000, 0x0000000300251c88, 0x0000000300251e00, 0x00000003556b0000)
+[9.664s][info][gc,heap,exit   ]  Metaspace       used 3935K, committed 4096K, reserved 1114112K
+[9.664s][info][gc,heap,exit   ]   class space    used 447K, committed 512K, reserved 1048576K
