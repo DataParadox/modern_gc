@@ -1,4 +1,4 @@
-# Performance Analysis of Modern Garabge Collectors in JDK 20
+# A Performance Analysis of Modern Garbage Collectors in the JDK 20 Environment
 
 ***Help***
 + ``--b_suite``: Evaluation benchmark suite (``dacapo``, ``renaissance``)
