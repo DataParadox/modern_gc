@@ -1,0 +1,724 @@
+[0.017s][info][gc,init] CardTable entry size: 512
+[0.017s][info][gc     ] Using Serial
+[0.021s][info][gc,init] Version: 20+36-2344 (release)
+[0.021s][info][gc,init] CPUs: 48 total, 48 available
+[0.021s][info][gc,init] Memory: 382G
+[0.021s][info][gc,init] Large Page Support: Disabled
+[0.022s][info][gc,init] NUMA Support: Disabled
+[0.022s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.022s][info][gc,init] Heap Min Capacity: 8M
+[0.022s][info][gc,init] Heap Initial Capacity: 1G
+[0.022s][info][gc,init] Heap Max Capacity: 1G
+[0.022s][info][gc,init] Pre-touch: Disabled
+[0.035s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.035s][info][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.035s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[1.275s][info][gc,start    ] GC(0) Pause Full (System.gc())
+[1.275s][info][gc,phases,start] GC(0) Phase 1: Mark live objects
+[1.305s][info][gc,phases      ] GC(0) Phase 1: Mark live objects 30.264ms
+[1.305s][info][gc,phases,start] GC(0) Phase 2: Compute new object addresses
+[1.319s][info][gc,phases      ] GC(0) Phase 2: Compute new object addresses 13.889ms
+[1.319s][info][gc,phases,start] GC(0) Phase 3: Adjust pointers
+[1.333s][info][gc,phases      ] GC(0) Phase 3: Adjust pointers 13.645ms
+[1.333s][info][gc,phases,start] GC(0) Phase 4: Move objects
+[1.350s][info][gc,phases      ] GC(0) Phase 4: Move objects 17.522ms
+[1.351s][info][gc,heap        ] GC(0) DefNew: 106339K(314560K)->0K(314560K) Eden: 106339K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[1.351s][info][gc,heap        ] GC(0) Tenured: 0K(699072K)->26237K(699072K)
+[1.351s][info][gc,metaspace   ] GC(0) Metaspace: 11486K(11712K)->11486K(11712K) NonClass: 9922K(10048K)->9922K(10048K) Class: 1564K(1664K)->1564K(1664K)
+[1.352s][info][gc             ] GC(0) Pause Full (System.gc()) 103M->25M(989M) 76.778ms
+[1.352s][info][gc,cpu         ] GC(0) User=0.08s Sys=0.00s Real=0.08s
+[1.755s][info][gc,start       ] GC(1) Pause Full (System.gc())
+[1.755s][info][gc,phases,start] GC(1) Phase 1: Mark live objects
+[1.784s][info][gc,phases      ] GC(1) Phase 1: Mark live objects 29.463ms
+[1.784s][info][gc,phases,start] GC(1) Phase 2: Compute new object addresses
+[1.803s][info][gc,phases      ] GC(1) Phase 2: Compute new object addresses 18.571ms
+[1.803s][info][gc,phases,start] GC(1) Phase 3: Adjust pointers
+[1.813s][info][gc,phases      ] GC(1) Phase 3: Adjust pointers 10.073ms
+[1.813s][info][gc,phases,start] GC(1) Phase 4: Move objects
+[1.813s][info][gc,phases      ] GC(1) Phase 4: Move objects 0.071ms
+[1.813s][info][gc,heap        ] GC(1) DefNew: 50331K(314560K)->0K(314560K) Eden: 50331K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[1.813s][info][gc,heap        ] GC(1) Tenured: 26237K(699072K)->26327K(699072K)
+[1.813s][info][gc,metaspace   ] GC(1) Metaspace: 11860K(12096K)->11860K(12096K) NonClass: 10233K(10368K)->10233K(10368K) Class: 1626K(1728K)->1626K(1728K)
+[1.813s][info][gc             ] GC(1) Pause Full (System.gc()) 74M->25M(989M) 58.621ms
+[1.813s][info][gc,cpu         ] GC(1) User=0.08s Sys=0.00s Real=0.06s
+[2.061s][info][gc,start       ] GC(2) Pause Full (System.gc())
+[2.061s][info][gc,phases,start] GC(2) Phase 1: Mark live objects
+[2.088s][info][gc,phases      ] GC(2) Phase 1: Mark live objects 27.236ms
+[2.088s][info][gc,phases,start] GC(2) Phase 2: Compute new object addresses
+[2.107s][info][gc,phases      ] GC(2) Phase 2: Compute new object addresses 18.875ms
+[2.107s][info][gc,phases,start] GC(2) Phase 3: Adjust pointers
+[2.117s][info][gc,phases      ] GC(2) Phase 3: Adjust pointers 9.786ms
+[2.117s][info][gc,phases,start] GC(2) Phase 4: Move objects
+[2.117s][info][gc,phases      ] GC(2) Phase 4: Move objects 0.016ms
+[2.117s][info][gc,heap        ] GC(2) DefNew: 44738K(314560K)->0K(314560K) Eden: 44738K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[2.117s][info][gc,heap        ] GC(2) Tenured: 26327K(699072K)->26328K(699072K)
+[2.117s][info][gc,metaspace   ] GC(2) Metaspace: 11863K(12096K)->11863K(12096K) NonClass: 10236K(10368K)->10236K(10368K) Class: 1626K(1728K)->1626K(1728K)
+[2.117s][info][gc             ] GC(2) Pause Full (System.gc()) 69M->25M(989M) 56.402ms
+[2.117s][info][gc,cpu         ] GC(2) User=0.06s Sys=0.00s Real=0.06s
+[2.377s][info][gc,start       ] GC(3) Pause Full (System.gc())
+[2.377s][info][gc,phases,start] GC(3) Phase 1: Mark live objects
+[2.407s][info][gc,phases      ] GC(3) Phase 1: Mark live objects 29.923ms
+[2.407s][info][gc,phases,start] GC(3) Phase 2: Compute new object addresses
+[2.438s][info][gc,phases      ] GC(3) Phase 2: Compute new object addresses 31.099ms
+[2.438s][info][gc,phases,start] GC(3) Phase 3: Adjust pointers
+[2.449s][info][gc,phases      ] GC(3) Phase 3: Adjust pointers 11.050ms
+[2.450s][info][gc,phases,start] GC(3) Phase 4: Move objects
+[2.457s][info][gc,phases      ] GC(3) Phase 4: Move objects 7.555ms
+[2.457s][info][gc,heap        ] GC(3) DefNew: 72700K(314560K)->0K(314560K) Eden: 72700K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[2.457s][info][gc,heap        ] GC(3) Tenured: 26328K(699072K)->26295K(699072K)
+[2.457s][info][gc,metaspace   ] GC(3) Metaspace: 11885K(12096K)->11885K(12096K) NonClass: 10259K(10368K)->10259K(10368K) Class: 1626K(1728K)->1626K(1728K)
+[2.457s][info][gc             ] GC(3) Pause Full (System.gc()) 96M->25M(989M) 80.096ms
+[2.457s][info][gc,cpu         ] GC(3) User=0.08s Sys=0.00s Real=0.08s
+[2.735s][info][gc,start       ] GC(4) Pause Full (System.gc())
+[2.735s][info][gc,phases,start] GC(4) Phase 1: Mark live objects
+[2.762s][info][gc,phases      ] GC(4) Phase 1: Mark live objects 27.103ms
+[2.762s][info][gc,phases,start] GC(4) Phase 2: Compute new object addresses
+[2.816s][info][gc,phases      ] GC(4) Phase 2: Compute new object addresses 54.185ms
+[2.816s][info][gc,phases,start] GC(4) Phase 3: Adjust pointers
+[2.827s][info][gc,phases      ] GC(4) Phase 3: Adjust pointers 10.343ms
+[2.827s][info][gc,phases,start] GC(4) Phase 4: Move objects
+[2.827s][info][gc,phases      ] GC(4) Phase 4: Move objects 0.013ms
+[2.827s][info][gc,heap        ] GC(4) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[2.827s][info][gc,heap        ] GC(4) Tenured: 26295K(699072K)->26296K(699072K)
+[2.827s][info][gc,metaspace   ] GC(4) Metaspace: 11934K(12160K)->11934K(12160K) NonClass: 10307K(10432K)->10307K(10432K) Class: 1627K(1728K)->1627K(1728K)
+[2.827s][info][gc             ] GC(4) Pause Full (System.gc()) 151M->25M(989M) 92.046ms
+[2.827s][info][gc,cpu         ] GC(4) User=0.09s Sys=0.00s Real=0.09s
+[3.096s][info][gc,start       ] GC(5) Pause Full (System.gc())
+[3.096s][info][gc,phases,start] GC(5) Phase 1: Mark live objects
+[3.123s][info][gc,phases      ] GC(5) Phase 1: Mark live objects 27.177ms
+[3.123s][info][gc,phases,start] GC(5) Phase 2: Compute new object addresses
+[3.177s][info][gc,phases      ] GC(5) Phase 2: Compute new object addresses 53.968ms
+[3.177s][info][gc,phases,start] GC(5) Phase 3: Adjust pointers
+[3.187s][info][gc,phases      ] GC(5) Phase 3: Adjust pointers 10.323ms
+[3.187s][info][gc,phases,start] GC(5) Phase 4: Move objects
+[3.187s][info][gc,phases      ] GC(5) Phase 4: Move objects 0.013ms
+[3.187s][info][gc,heap        ] GC(5) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[3.187s][info][gc,heap        ] GC(5) Tenured: 26296K(699072K)->26296K(699072K)
+[3.187s][info][gc,metaspace   ] GC(5) Metaspace: 11936K(12160K)->11936K(12160K) NonClass: 10309K(10432K)->10309K(10432K) Class: 1627K(1728K)->1627K(1728K)
+[3.187s][info][gc             ] GC(5) Pause Full (System.gc()) 151M->25M(989M) 91.904ms
+[3.187s][info][gc,cpu         ] GC(5) User=0.08s Sys=0.00s Real=0.08s
+[3.467s][info][gc,start       ] GC(6) Pause Full (System.gc())
+[3.468s][info][gc,phases,start] GC(6) Phase 1: Mark live objects
+[3.483s][info][gc,phases      ] GC(6) Phase 1: Mark live objects 15.852ms
+[3.484s][info][gc,phases,start] GC(6) Phase 2: Compute new object addresses
+[3.537s][info][gc,phases      ] GC(6) Phase 2: Compute new object addresses 53.414ms
+[3.537s][info][gc,phases,start] GC(6) Phase 3: Adjust pointers
+[3.547s][info][gc,phases      ] GC(6) Phase 3: Adjust pointers 10.049ms
+[3.547s][info][gc,phases,start] GC(6) Phase 4: Move objects
+[3.547s][info][gc,phases      ] GC(6) Phase 4: Move objects 0.013ms
+[3.547s][info][gc,heap        ] GC(6) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[3.547s][info][gc,heap        ] GC(6) Tenured: 26296K(699072K)->26296K(699072K)
+[3.547s][info][gc,metaspace   ] GC(6) Metaspace: 11937K(12160K)->11937K(12160K) NonClass: 10310K(10432K)->10310K(10432K) Class: 1627K(1728K)->1627K(1728K)
+[3.547s][info][gc             ] GC(6) Pause Full (System.gc()) 151M->25M(989M) 79.719ms
+[3.547s][info][gc,cpu         ] GC(6) User=0.08s Sys=0.00s Real=0.08s
+[3.815s][info][gc,start       ] GC(7) Pause Full (System.gc())
+[3.815s][info][gc,phases,start] GC(7) Phase 1: Mark live objects
+[3.844s][info][gc,phases      ] GC(7) Phase 1: Mark live objects 29.310ms
+[3.844s][info][gc,phases,start] GC(7) Phase 2: Compute new object addresses
+[3.898s][info][gc,phases      ] GC(7) Phase 2: Compute new object addresses 54.214ms
+[3.898s][info][gc,phases,start] GC(7) Phase 3: Adjust pointers
+[3.909s][info][gc,phases      ] GC(7) Phase 3: Adjust pointers 10.316ms
+[3.909s][info][gc,phases,start] GC(7) Phase 4: Move objects
+[3.909s][info][gc,phases      ] GC(7) Phase 4: Move objects 0.018ms
+[3.909s][info][gc,heap        ] GC(7) DefNew: 134216K(314560K)->0K(314560K) Eden: 134216K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[3.909s][info][gc,heap        ] GC(7) Tenured: 26296K(699072K)->26296K(699072K)
+[3.909s][info][gc,metaspace   ] GC(7) Metaspace: 11944K(12160K)->11944K(12160K) NonClass: 10315K(10432K)->10315K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[3.909s][info][gc             ] GC(7) Pause Full (System.gc()) 156M->25M(989M) 94.218ms
+[3.909s][info][gc,cpu         ] GC(7) User=0.09s Sys=0.00s Real=0.09s
+[4.176s][info][gc,start       ] GC(8) Pause Full (System.gc())
+[4.176s][info][gc,phases,start] GC(8) Phase 1: Mark live objects
+[4.206s][info][gc,phases      ] GC(8) Phase 1: Mark live objects 29.639ms
+[4.206s][info][gc,phases,start] GC(8) Phase 2: Compute new object addresses
+[4.261s][info][gc,phases      ] GC(8) Phase 2: Compute new object addresses 54.535ms
+[4.261s][info][gc,phases,start] GC(8) Phase 3: Adjust pointers
+[4.271s][info][gc,phases      ] GC(8) Phase 3: Adjust pointers 10.404ms
+[4.271s][info][gc,phases,start] GC(8) Phase 4: Move objects
+[4.271s][info][gc,phases      ] GC(8) Phase 4: Move objects 0.012ms
+[4.271s][info][gc,heap        ] GC(8) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[4.271s][info][gc,heap        ] GC(8) Tenured: 26296K(699072K)->26296K(699072K)
+[4.271s][info][gc,metaspace   ] GC(8) Metaspace: 11955K(12160K)->11955K(12160K) NonClass: 10326K(10432K)->10326K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[4.271s][info][gc             ] GC(8) Pause Full (System.gc()) 151M->25M(989M) 95.002ms
+[4.271s][info][gc,cpu         ] GC(8) User=0.09s Sys=0.00s Real=0.09s
+[4.538s][info][gc,start       ] GC(9) Pause Full (System.gc())
+[4.539s][info][gc,phases,start] GC(9) Phase 1: Mark live objects
+[4.568s][info][gc,phases      ] GC(9) Phase 1: Mark live objects 29.492ms
+[4.568s][info][gc,phases,start] GC(9) Phase 2: Compute new object addresses
+[4.622s][info][gc,phases      ] GC(9) Phase 2: Compute new object addresses 54.119ms
+[4.622s][info][gc,phases,start] GC(9) Phase 3: Adjust pointers
+[4.632s][info][gc,phases      ] GC(9) Phase 3: Adjust pointers 10.143ms
+[4.632s][info][gc,phases,start] GC(9) Phase 4: Move objects
+[4.632s][info][gc,phases      ] GC(9) Phase 4: Move objects 0.013ms
+[4.633s][info][gc,heap        ] GC(9) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[4.633s][info][gc,heap        ] GC(9) Tenured: 26296K(699072K)->26296K(699072K)
+[4.633s][info][gc,metaspace   ] GC(9) Metaspace: 11956K(12160K)->11956K(12160K) NonClass: 10327K(10432K)->10327K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[4.633s][info][gc             ] GC(9) Pause Full (System.gc()) 151M->25M(989M) 94.175ms
+[4.633s][info][gc,cpu         ] GC(9) User=0.09s Sys=0.00s Real=0.09s
+[4.897s][info][gc,start       ] GC(10) Pause Full (System.gc())
+[4.897s][info][gc,phases,start] GC(10) Phase 1: Mark live objects
+[4.928s][info][gc,phases      ] GC(10) Phase 1: Mark live objects 30.349ms
+[4.928s][info][gc,phases,start] GC(10) Phase 2: Compute new object addresses
+[4.982s][info][gc,phases      ] GC(10) Phase 2: Compute new object addresses 54.298ms
+[4.982s][info][gc,phases,start] GC(10) Phase 3: Adjust pointers
+[4.993s][info][gc,phases      ] GC(10) Phase 3: Adjust pointers 10.507ms
+[4.993s][info][gc,phases,start] GC(10) Phase 4: Move objects
+[4.993s][info][gc,phases      ] GC(10) Phase 4: Move objects 0.013ms
+[4.993s][info][gc,heap        ] GC(10) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[4.993s][info][gc,heap        ] GC(10) Tenured: 26296K(699072K)->26296K(699072K)
+[4.993s][info][gc,metaspace   ] GC(10) Metaspace: 11958K(12160K)->11958K(12160K) NonClass: 10329K(10432K)->10329K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[4.993s][info][gc             ] GC(10) Pause Full (System.gc()) 151M->25M(989M) 95.591ms
+[4.993s][info][gc,cpu         ] GC(10) User=0.09s Sys=0.02s Real=0.11s
+[5.275s][info][gc,start       ] GC(11) Pause Full (System.gc())
+[5.275s][info][gc,phases,start] GC(11) Phase 1: Mark live objects
+[5.304s][info][gc,phases      ] GC(11) Phase 1: Mark live objects 28.450ms
+[5.304s][info][gc,phases,start] GC(11) Phase 2: Compute new object addresses
+[5.358s][info][gc,phases      ] GC(11) Phase 2: Compute new object addresses 54.250ms
+[5.358s][info][gc,phases,start] GC(11) Phase 3: Adjust pointers
+[5.369s][info][gc,phases      ] GC(11) Phase 3: Adjust pointers 10.557ms
+[5.369s][info][gc,phases,start] GC(11) Phase 4: Move objects
+[5.369s][info][gc,phases      ] GC(11) Phase 4: Move objects 0.014ms
+[5.369s][info][gc,heap        ] GC(11) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[5.369s][info][gc,heap        ] GC(11) Tenured: 26296K(699072K)->26296K(699072K)
+[5.369s][info][gc,metaspace   ] GC(11) Metaspace: 11960K(12160K)->11960K(12160K) NonClass: 10331K(10432K)->10331K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[5.369s][info][gc             ] GC(11) Pause Full (System.gc()) 151M->25M(989M) 93.699ms
+[5.369s][info][gc,cpu         ] GC(11) User=0.09s Sys=0.00s Real=0.09s
+[5.638s][info][gc,start       ] GC(12) Pause Full (System.gc())
+[5.638s][info][gc,phases,start] GC(12) Phase 1: Mark live objects
+[5.665s][info][gc,phases      ] GC(12) Phase 1: Mark live objects 27.233ms
+[5.665s][info][gc,phases,start] GC(12) Phase 2: Compute new object addresses
+[5.731s][info][gc,phases      ] GC(12) Phase 2: Compute new object addresses 65.255ms
+[5.731s][info][gc,phases,start] GC(12) Phase 3: Adjust pointers
+[5.744s][info][gc,phases      ] GC(12) Phase 3: Adjust pointers 13.499ms
+[5.744s][info][gc,phases,start] GC(12) Phase 4: Move objects
+[5.744s][info][gc,phases      ] GC(12) Phase 4: Move objects 0.013ms
+[5.744s][info][gc,heap        ] GC(12) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[5.744s][info][gc,heap        ] GC(12) Tenured: 26296K(699072K)->26296K(699072K)
+[5.744s][info][gc,metaspace   ] GC(12) Metaspace: 11960K(12160K)->11960K(12160K) NonClass: 10331K(10432K)->10331K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[5.744s][info][gc             ] GC(12) Pause Full (System.gc()) 151M->25M(989M) 106.466ms
+[5.744s][info][gc,cpu         ] GC(12) User=0.11s Sys=0.00s Real=0.11s
+[6.013s][info][gc,start       ] GC(13) Pause Full (System.gc())
+[6.013s][info][gc,phases,start] GC(13) Phase 1: Mark live objects
+[6.042s][info][gc,phases      ] GC(13) Phase 1: Mark live objects 29.156ms
+[6.042s][info][gc,phases,start] GC(13) Phase 2: Compute new object addresses
+[6.096s][info][gc,phases      ] GC(13) Phase 2: Compute new object addresses 53.841ms
+[6.096s][info][gc,phases,start] GC(13) Phase 3: Adjust pointers
+[6.107s][info][gc,phases      ] GC(13) Phase 3: Adjust pointers 10.915ms
+[6.107s][info][gc,phases,start] GC(13) Phase 4: Move objects
+[6.107s][info][gc,phases      ] GC(13) Phase 4: Move objects 0.012ms
+[6.107s][info][gc,heap        ] GC(13) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[6.107s][info][gc,heap        ] GC(13) Tenured: 26296K(699072K)->26296K(699072K)
+[6.107s][info][gc,metaspace   ] GC(13) Metaspace: 11962K(12160K)->11962K(12160K) NonClass: 10333K(10432K)->10333K(10432K) Class: 1628K(1728K)->1628K(1728K)
+[6.107s][info][gc             ] GC(13) Pause Full (System.gc()) 151M->25M(989M) 94.464ms
+[6.107s][info][gc,cpu         ] GC(13) User=0.09s Sys=0.00s Real=0.09s
+[6.375s][info][gc,start       ] GC(14) Pause Full (System.gc())
+[6.376s][info][gc,phases,start] GC(14) Phase 1: Mark live objects
+[6.406s][info][gc,phases      ] GC(14) Phase 1: Mark live objects 30.757ms
+[6.406s][info][gc,phases,start] GC(14) Phase 2: Compute new object addresses
+[6.461s][info][gc,phases      ] GC(14) Phase 2: Compute new object addresses 54.653ms
+[6.461s][info][gc,phases,start] GC(14) Phase 3: Adjust pointers
+[6.471s][info][gc,phases      ] GC(14) Phase 3: Adjust pointers 10.436ms
+[6.472s][info][gc,phases,start] GC(14) Phase 4: Move objects
+[6.472s][info][gc,phases      ] GC(14) Phase 4: Move objects 0.012ms
+[6.472s][info][gc,heap        ] GC(14) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[6.472s][info][gc,heap        ] GC(14) Tenured: 26296K(699072K)->26297K(699072K)
+[6.472s][info][gc,metaspace   ] GC(14) Metaspace: 11979K(12224K)->11979K(12224K) NonClass: 10350K(10496K)->10350K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[6.472s][info][gc             ] GC(14) Pause Full (System.gc()) 151M->25M(989M) 96.274ms
+[6.472s][info][gc,cpu         ] GC(14) User=0.09s Sys=0.00s Real=0.09s
+[6.738s][info][gc,start       ] GC(15) Pause Full (System.gc())
+[6.738s][info][gc,phases,start] GC(15) Phase 1: Mark live objects
+[6.768s][info][gc,phases      ] GC(15) Phase 1: Mark live objects 30.593ms
+[6.768s][info][gc,phases,start] GC(15) Phase 2: Compute new object addresses
+[6.823s][info][gc,phases      ] GC(15) Phase 2: Compute new object addresses 54.656ms
+[6.823s][info][gc,phases,start] GC(15) Phase 3: Adjust pointers
+[6.834s][info][gc,phases      ] GC(15) Phase 3: Adjust pointers 10.521ms
+[6.834s][info][gc,phases,start] GC(15) Phase 4: Move objects
+[6.834s][info][gc,phases      ] GC(15) Phase 4: Move objects 0.012ms
+[6.834s][info][gc,heap        ] GC(15) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[6.834s][info][gc,heap        ] GC(15) Tenured: 26297K(699072K)->26296K(699072K)
+[6.834s][info][gc,metaspace   ] GC(15) Metaspace: 11988K(12224K)->11988K(12224K) NonClass: 10359K(10496K)->10359K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[6.834s][info][gc             ] GC(15) Pause Full (System.gc()) 151M->25M(989M) 96.200ms
+[6.834s][info][gc,cpu         ] GC(15) User=0.09s Sys=0.00s Real=0.09s
+[7.114s][info][gc,start       ] GC(16) Pause Full (System.gc())
+[7.114s][info][gc,phases,start] GC(16) Phase 1: Mark live objects
+[7.130s][info][gc,phases      ] GC(16) Phase 1: Mark live objects 15.871ms
+[7.130s][info][gc,phases,start] GC(16) Phase 2: Compute new object addresses
+[7.183s][info][gc,phases      ] GC(16) Phase 2: Compute new object addresses 53.313ms
+[7.183s][info][gc,phases,start] GC(16) Phase 3: Adjust pointers
+[7.193s][info][gc,phases      ] GC(16) Phase 3: Adjust pointers 10.207ms
+[7.193s][info][gc,phases,start] GC(16) Phase 4: Move objects
+[7.193s][info][gc,phases      ] GC(16) Phase 4: Move objects 0.012ms
+[7.193s][info][gc,heap        ] GC(16) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[7.193s][info][gc,heap        ] GC(16) Tenured: 26296K(699072K)->26296K(699072K)
+[7.193s][info][gc,metaspace   ] GC(16) Metaspace: 11991K(12224K)->11991K(12224K) NonClass: 10362K(10496K)->10362K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[7.193s][info][gc             ] GC(16) Pause Full (System.gc()) 151M->25M(989M) 79.748ms
+[7.193s][info][gc,cpu         ] GC(16) User=0.08s Sys=0.00s Real=0.08s
+[7.461s][info][gc,start       ] GC(17) Pause Full (System.gc())
+[7.461s][info][gc,phases,start] GC(17) Phase 1: Mark live objects
+[7.492s][info][gc,phases      ] GC(17) Phase 1: Mark live objects 30.191ms
+[7.492s][info][gc,phases,start] GC(17) Phase 2: Compute new object addresses
+[7.546s][info][gc,phases      ] GC(17) Phase 2: Compute new object addresses 54.383ms
+[7.546s][info][gc,phases,start] GC(17) Phase 3: Adjust pointers
+[7.556s][info][gc,phases      ] GC(17) Phase 3: Adjust pointers 10.196ms
+[7.556s][info][gc,phases,start] GC(17) Phase 4: Move objects
+[7.556s][info][gc,phases      ] GC(17) Phase 4: Move objects 0.013ms
+[7.556s][info][gc,heap        ] GC(17) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[7.556s][info][gc,heap        ] GC(17) Tenured: 26296K(699072K)->26296K(699072K)
+[7.556s][info][gc,metaspace   ] GC(17) Metaspace: 11992K(12224K)->11992K(12224K) NonClass: 10363K(10496K)->10363K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[7.556s][info][gc             ] GC(17) Pause Full (System.gc()) 151M->25M(989M) 95.210ms
+[7.556s][info][gc,cpu         ] GC(17) User=0.09s Sys=0.00s Real=0.09s
+[7.822s][info][gc,start       ] GC(18) Pause Full (System.gc())
+[7.822s][info][gc,phases,start] GC(18) Phase 1: Mark live objects
+[7.853s][info][gc,phases      ] GC(18) Phase 1: Mark live objects 30.936ms
+[7.853s][info][gc,phases,start] GC(18) Phase 2: Compute new object addresses
+[7.908s][info][gc,phases      ] GC(18) Phase 2: Compute new object addresses 54.666ms
+[7.908s][info][gc,phases,start] GC(18) Phase 3: Adjust pointers
+[7.918s][info][gc,phases      ] GC(18) Phase 3: Adjust pointers 10.308ms
+[7.919s][info][gc,phases,start] GC(18) Phase 4: Move objects
+[7.919s][info][gc,phases      ] GC(18) Phase 4: Move objects 0.013ms
+[7.919s][info][gc,heap        ] GC(18) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[7.919s][info][gc,heap        ] GC(18) Tenured: 26296K(699072K)->26297K(699072K)
+[7.919s][info][gc,metaspace   ] GC(18) Metaspace: 11992K(12224K)->11992K(12224K) NonClass: 10363K(10496K)->10363K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[7.919s][info][gc             ] GC(18) Pause Full (System.gc()) 151M->25M(989M) 96.346ms
+[7.919s][info][gc,cpu         ] GC(18) User=0.09s Sys=0.00s Real=0.09s
+[8.185s][info][gc,start       ] GC(19) Pause Full (System.gc())
+[8.185s][info][gc,phases,start] GC(19) Phase 1: Mark live objects
+[8.215s][info][gc,phases      ] GC(19) Phase 1: Mark live objects 30.425ms
+[8.215s][info][gc,phases,start] GC(19) Phase 2: Compute new object addresses
+[8.270s][info][gc,phases      ] GC(19) Phase 2: Compute new object addresses 54.401ms
+[8.270s][info][gc,phases,start] GC(19) Phase 3: Adjust pointers
+[8.288s][info][gc,phases      ] GC(19) Phase 3: Adjust pointers 18.131ms
+[8.288s][info][gc,phases,start] GC(19) Phase 4: Move objects
+[8.288s][info][gc,phases      ] GC(19) Phase 4: Move objects 0.027ms
+[8.288s][info][gc,heap        ] GC(19) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[8.288s][info][gc,heap        ] GC(19) Tenured: 26297K(699072K)->26296K(699072K)
+[8.288s][info][gc,metaspace   ] GC(19) Metaspace: 11993K(12224K)->11993K(12224K) NonClass: 10364K(10496K)->10364K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[8.288s][info][gc             ] GC(19) Pause Full (System.gc()) 151M->25M(989M) 103.540ms
+[8.288s][info][gc,cpu         ] GC(19) User=0.11s Sys=0.00s Real=0.11s
+[8.556s][info][gc,start       ] GC(20) Pause Full (System.gc())
+[8.556s][info][gc,phases,start] GC(20) Phase 1: Mark live objects
+[8.586s][info][gc,phases      ] GC(20) Phase 1: Mark live objects 29.830ms
+[8.586s][info][gc,phases,start] GC(20) Phase 2: Compute new object addresses
+[8.641s][info][gc,phases      ] GC(20) Phase 2: Compute new object addresses 54.231ms
+[8.641s][info][gc,phases,start] GC(20) Phase 3: Adjust pointers
+[8.651s][info][gc,phases      ] GC(20) Phase 3: Adjust pointers 10.411ms
+[8.651s][info][gc,phases,start] GC(20) Phase 4: Move objects
+[8.651s][info][gc,phases      ] GC(20) Phase 4: Move objects 0.013ms
+[8.651s][info][gc,heap        ] GC(20) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[8.651s][info][gc,heap        ] GC(20) Tenured: 26296K(699072K)->26296K(699072K)
+[8.651s][info][gc,metaspace   ] GC(20) Metaspace: 11993K(12224K)->11993K(12224K) NonClass: 10364K(10496K)->10364K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[8.651s][info][gc             ] GC(20) Pause Full (System.gc()) 151M->25M(989M) 94.922ms
+[8.651s][info][gc,cpu         ] GC(20) User=0.09s Sys=0.00s Real=0.09s
+[8.931s][info][gc,start       ] GC(21) Pause Full (System.gc())
+[8.931s][info][gc,phases,start] GC(21) Phase 1: Mark live objects
+[8.947s][info][gc,phases      ] GC(21) Phase 1: Mark live objects 16.141ms
+[8.947s][info][gc,phases,start] GC(21) Phase 2: Compute new object addresses
+[9.001s][info][gc,phases      ] GC(21) Phase 2: Compute new object addresses 54.019ms
+[9.001s][info][gc,phases,start] GC(21) Phase 3: Adjust pointers
+[9.011s][info][gc,phases      ] GC(21) Phase 3: Adjust pointers 10.231ms
+[9.011s][info][gc,phases,start] GC(21) Phase 4: Move objects
+[9.011s][info][gc,phases      ] GC(21) Phase 4: Move objects 0.013ms
+[9.011s][info][gc,heap        ] GC(21) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[9.011s][info][gc,heap        ] GC(21) Tenured: 26296K(699072K)->26297K(699072K)
+[9.011s][info][gc,metaspace   ] GC(21) Metaspace: 11994K(12224K)->11994K(12224K) NonClass: 10365K(10496K)->10365K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[9.011s][info][gc             ] GC(21) Pause Full (System.gc()) 151M->25M(989M) 80.737ms
+[9.011s][info][gc,cpu         ] GC(21) User=0.08s Sys=0.00s Real=0.08s
+[9.280s][info][gc,start       ] GC(22) Pause Full (System.gc())
+[9.280s][info][gc,phases,start] GC(22) Phase 1: Mark live objects
+[9.311s][info][gc,phases      ] GC(22) Phase 1: Mark live objects 30.988ms
+[9.311s][info][gc,phases,start] GC(22) Phase 2: Compute new object addresses
+[9.366s][info][gc,phases      ] GC(22) Phase 2: Compute new object addresses 54.701ms
+[9.366s][info][gc,phases,start] GC(22) Phase 3: Adjust pointers
+[9.376s][info][gc,phases      ] GC(22) Phase 3: Adjust pointers 10.699ms
+[9.376s][info][gc,phases,start] GC(22) Phase 4: Move objects
+[9.376s][info][gc,phases      ] GC(22) Phase 4: Move objects 0.012ms
+[9.376s][info][gc,heap        ] GC(22) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[9.377s][info][gc,heap        ] GC(22) Tenured: 26297K(699072K)->26297K(699072K)
+[9.377s][info][gc,metaspace   ] GC(22) Metaspace: 11994K(12224K)->11994K(12224K) NonClass: 10365K(10496K)->10365K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[9.377s][info][gc             ] GC(22) Pause Full (System.gc()) 151M->25M(989M) 96.797ms
+[9.377s][info][gc,cpu         ] GC(22) User=0.09s Sys=0.00s Real=0.09s
+[9.642s][info][gc,start       ] GC(23) Pause Full (System.gc())
+[9.642s][info][gc,phases,start] GC(23) Phase 1: Mark live objects
+[9.673s][info][gc,phases      ] GC(23) Phase 1: Mark live objects 31.004ms
+[9.673s][info][gc,phases,start] GC(23) Phase 2: Compute new object addresses
+[9.727s][info][gc,phases      ] GC(23) Phase 2: Compute new object addresses 54.501ms
+[9.727s][info][gc,phases,start] GC(23) Phase 3: Adjust pointers
+[9.738s][info][gc,phases      ] GC(23) Phase 3: Adjust pointers 10.681ms
+[9.738s][info][gc,phases,start] GC(23) Phase 4: Move objects
+[9.738s][info][gc,phases      ] GC(23) Phase 4: Move objects 0.018ms
+[9.738s][info][gc,heap        ] GC(23) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[9.738s][info][gc,heap        ] GC(23) Tenured: 26297K(699072K)->26297K(699072K)
+[9.738s][info][gc,metaspace   ] GC(23) Metaspace: 12021K(12224K)->12021K(12224K) NonClass: 10392K(10496K)->10392K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[9.738s][info][gc             ] GC(23) Pause Full (System.gc()) 151M->25M(989M) 96.646ms
+[9.738s][info][gc,cpu         ] GC(23) User=0.09s Sys=0.00s Real=0.09s
+[10.004s][info][gc,start       ] GC(24) Pause Full (System.gc())
+[10.004s][info][gc,phases,start] GC(24) Phase 1: Mark live objects
+[10.035s][info][gc,phases      ] GC(24) Phase 1: Mark live objects 30.709ms
+[10.035s][info][gc,phases,start] GC(24) Phase 2: Compute new object addresses
+[10.090s][info][gc,phases      ] GC(24) Phase 2: Compute new object addresses 54.687ms
+[10.090s][info][gc,phases,start] GC(24) Phase 3: Adjust pointers
+[10.109s][info][gc,phases      ] GC(24) Phase 3: Adjust pointers 19.664ms
+[10.109s][info][gc,phases,start] GC(24) Phase 4: Move objects
+[10.109s][info][gc,phases      ] GC(24) Phase 4: Move objects 0.029ms
+[10.109s][info][gc,heap        ] GC(24) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[10.109s][info][gc,heap        ] GC(24) Tenured: 26297K(699072K)->26297K(699072K)
+[10.109s][info][gc,metaspace   ] GC(24) Metaspace: 12021K(12224K)->12021K(12224K) NonClass: 10392K(10496K)->10392K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[10.110s][info][gc             ] GC(24) Pause Full (System.gc()) 151M->25M(989M) 105.656ms
+[10.110s][info][gc,cpu         ] GC(24) User=0.11s Sys=0.00s Real=0.11s
+[10.376s][info][gc,start       ] GC(25) Pause Full (System.gc())
+[10.376s][info][gc,phases,start] GC(25) Phase 1: Mark live objects
+[10.406s][info][gc,phases      ] GC(25) Phase 1: Mark live objects 30.403ms
+[10.406s][info][gc,phases,start] GC(25) Phase 2: Compute new object addresses
+[10.461s][info][gc,phases      ] GC(25) Phase 2: Compute new object addresses 54.529ms
+[10.461s][info][gc,phases,start] GC(25) Phase 3: Adjust pointers
+[10.480s][info][gc,phases      ] GC(25) Phase 3: Adjust pointers 19.751ms
+[10.481s][info][gc,phases,start] GC(25) Phase 4: Move objects
+[10.481s][info][gc,phases      ] GC(25) Phase 4: Move objects 0.022ms
+[10.481s][info][gc,heap        ] GC(25) DefNew: 128624K(314560K)->0K(314560K) Eden: 128624K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[10.481s][info][gc,heap        ] GC(25) Tenured: 26297K(699072K)->26297K(699072K)
+[10.481s][info][gc,metaspace   ] GC(25) Metaspace: 12022K(12224K)->12022K(12224K) NonClass: 10393K(10496K)->10393K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[10.481s][info][gc             ] GC(25) Pause Full (System.gc()) 151M->25M(989M) 105.224ms
+[10.481s][info][gc,cpu         ] GC(25) User=0.09s Sys=0.00s Real=0.10s
+[10.762s][info][gc,start       ] GC(26) Pause Full (System.gc())
+[10.762s][info][gc,phases,start] GC(26) Phase 1: Mark live objects
+[10.790s][info][gc,phases      ] GC(26) Phase 1: Mark live objects 28.008ms
+[10.790s][info][gc,phases,start] GC(26) Phase 2: Compute new object addresses
+[10.844s][info][gc,phases      ] GC(26) Phase 2: Compute new object addresses 54.012ms
+[10.844s][info][gc,phases,start] GC(26) Phase 3: Adjust pointers
+[10.855s][info][gc,phases      ] GC(26) Phase 3: Adjust pointers 10.355ms
+[10.855s][info][gc,phases,start] GC(26) Phase 4: Move objects
+[10.855s][info][gc,phases      ] GC(26) Phase 4: Move objects 0.012ms
+[10.855s][info][gc,heap        ] GC(26) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[10.855s][info][gc,heap        ] GC(26) Tenured: 26297K(699072K)->26297K(699072K)
+[10.855s][info][gc,metaspace   ] GC(26) Metaspace: 12023K(12224K)->12023K(12224K) NonClass: 10394K(10496K)->10394K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[10.855s][info][gc             ] GC(26) Pause Full (System.gc()) 151M->25M(989M) 92.885ms
+[10.855s][info][gc,cpu         ] GC(26) User=0.09s Sys=0.00s Real=0.09s
+[11.122s][info][gc,start       ] GC(27) Pause Full (System.gc())
+[11.123s][info][gc,phases,start] GC(27) Phase 1: Mark live objects
+[11.151s][info][gc,phases      ] GC(27) Phase 1: Mark live objects 28.679ms
+[11.151s][info][gc,phases,start] GC(27) Phase 2: Compute new object addresses
+[11.206s][info][gc,phases      ] GC(27) Phase 2: Compute new object addresses 54.251ms
+[11.206s][info][gc,phases,start] GC(27) Phase 3: Adjust pointers
+[11.216s][info][gc,phases      ] GC(27) Phase 3: Adjust pointers 10.548ms
+[11.216s][info][gc,phases,start] GC(27) Phase 4: Move objects
+[11.216s][info][gc,phases      ] GC(27) Phase 4: Move objects 0.013ms
+[11.216s][info][gc,heap        ] GC(27) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[11.216s][info][gc,heap        ] GC(27) Tenured: 26297K(699072K)->26297K(699072K)
+[11.216s][info][gc,metaspace   ] GC(27) Metaspace: 12023K(12224K)->12023K(12224K) NonClass: 10394K(10496K)->10394K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[11.216s][info][gc             ] GC(27) Pause Full (System.gc()) 151M->25M(989M) 93.926ms
+[11.216s][info][gc,cpu         ] GC(27) User=0.09s Sys=0.00s Real=0.09s
+[11.484s][info][gc,start       ] GC(28) Pause Full (System.gc())
+[11.484s][info][gc,phases,start] GC(28) Phase 1: Mark live objects
+[11.513s][info][gc,phases      ] GC(28) Phase 1: Mark live objects 28.979ms
+[11.513s][info][gc,phases,start] GC(28) Phase 2: Compute new object addresses
+[11.567s][info][gc,phases      ] GC(28) Phase 2: Compute new object addresses 54.170ms
+[11.567s][info][gc,phases,start] GC(28) Phase 3: Adjust pointers
+[11.578s][info][gc,phases      ] GC(28) Phase 3: Adjust pointers 10.354ms
+[11.578s][info][gc,phases,start] GC(28) Phase 4: Move objects
+[11.578s][info][gc,phases      ] GC(28) Phase 4: Move objects 0.012ms
+[11.578s][info][gc,heap        ] GC(28) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[11.578s][info][gc,heap        ] GC(28) Tenured: 26297K(699072K)->26297K(699072K)
+[11.578s][info][gc,metaspace   ] GC(28) Metaspace: 12023K(12224K)->12023K(12224K) NonClass: 10394K(10496K)->10394K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[11.578s][info][gc             ] GC(28) Pause Full (System.gc()) 151M->25M(989M) 93.946ms
+[11.578s][info][gc,cpu         ] GC(28) User=0.09s Sys=0.00s Real=0.09s
+[11.843s][info][gc,start       ] GC(29) Pause Full (System.gc())
+[11.843s][info][gc,phases,start] GC(29) Phase 1: Mark live objects
+[11.874s][info][gc,phases      ] GC(29) Phase 1: Mark live objects 30.664ms
+[11.874s][info][gc,phases,start] GC(29) Phase 2: Compute new object addresses
+[11.928s][info][gc,phases      ] GC(29) Phase 2: Compute new object addresses 54.645ms
+[11.928s][info][gc,phases,start] GC(29) Phase 3: Adjust pointers
+[11.939s][info][gc,phases      ] GC(29) Phase 3: Adjust pointers 10.327ms
+[11.939s][info][gc,phases,start] GC(29) Phase 4: Move objects
+[11.939s][info][gc,phases      ] GC(29) Phase 4: Move objects 0.012ms
+[11.939s][info][gc,heap        ] GC(29) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[11.939s][info][gc,heap        ] GC(29) Tenured: 26297K(699072K)->26297K(699072K)
+[11.939s][info][gc,metaspace   ] GC(29) Metaspace: 12024K(12224K)->12024K(12224K) NonClass: 10396K(10496K)->10396K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[11.939s][info][gc             ] GC(29) Pause Full (System.gc()) 151M->25M(989M) 96.073ms
+[11.939s][info][gc,cpu         ] GC(29) User=0.09s Sys=0.00s Real=0.09s
+[12.204s][info][gc,start       ] GC(30) Pause Full (System.gc())
+[12.204s][info][gc,phases,start] GC(30) Phase 1: Mark live objects
+[12.235s][info][gc,phases      ] GC(30) Phase 1: Mark live objects 30.540ms
+[12.235s][info][gc,phases,start] GC(30) Phase 2: Compute new object addresses
+[12.289s][info][gc,phases      ] GC(30) Phase 2: Compute new object addresses 54.497ms
+[12.289s][info][gc,phases,start] GC(30) Phase 3: Adjust pointers
+[12.300s][info][gc,phases      ] GC(30) Phase 3: Adjust pointers 10.442ms
+[12.300s][info][gc,phases,start] GC(30) Phase 4: Move objects
+[12.300s][info][gc,phases      ] GC(30) Phase 4: Move objects 0.012ms
+[12.300s][info][gc,heap        ] GC(30) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[12.300s][info][gc,heap        ] GC(30) Tenured: 26297K(699072K)->26297K(699072K)
+[12.300s][info][gc,metaspace   ] GC(30) Metaspace: 12031K(12224K)->12031K(12224K) NonClass: 10402K(10496K)->10402K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[12.300s][info][gc             ] GC(30) Pause Full (System.gc()) 151M->25M(989M) 95.916ms
+[12.300s][info][gc,cpu         ] GC(30) User=0.09s Sys=0.00s Real=0.10s
+[12.592s][info][gc,start       ] GC(31) Pause Full (System.gc())
+[12.592s][info][gc,phases,start] GC(31) Phase 1: Mark live objects
+[12.619s][info][gc,phases      ] GC(31) Phase 1: Mark live objects 27.416ms
+[12.619s][info][gc,phases,start] GC(31) Phase 2: Compute new object addresses
+[12.673s][info][gc,phases      ] GC(31) Phase 2: Compute new object addresses 54.009ms
+[12.673s][info][gc,phases,start] GC(31) Phase 3: Adjust pointers
+[12.684s][info][gc,phases      ] GC(31) Phase 3: Adjust pointers 10.593ms
+[12.684s][info][gc,phases,start] GC(31) Phase 4: Move objects
+[12.684s][info][gc,phases      ] GC(31) Phase 4: Move objects 0.013ms
+[12.684s][info][gc,heap        ] GC(31) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[12.684s][info][gc,heap        ] GC(31) Tenured: 26297K(699072K)->26297K(699072K)
+[12.684s][info][gc,metaspace   ] GC(31) Metaspace: 12035K(12224K)->12035K(12224K) NonClass: 10407K(10496K)->10407K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[12.684s][info][gc             ] GC(31) Pause Full (System.gc()) 151M->25M(989M) 92.462ms
+[12.684s][info][gc,cpu         ] GC(31) User=0.09s Sys=0.00s Real=0.09s
+[12.953s][info][gc,start       ] GC(32) Pause Full (System.gc())
+[12.953s][info][gc,phases,start] GC(32) Phase 1: Mark live objects
+[12.981s][info][gc,phases      ] GC(32) Phase 1: Mark live objects 27.940ms
+[12.981s][info][gc,phases,start] GC(32) Phase 2: Compute new object addresses
+[13.040s][info][gc,phases      ] GC(32) Phase 2: Compute new object addresses 58.967ms
+[13.040s][info][gc,phases,start] GC(32) Phase 3: Adjust pointers
+[13.057s][info][gc,phases      ] GC(32) Phase 3: Adjust pointers 17.669ms
+[13.057s][info][gc,phases,start] GC(32) Phase 4: Move objects
+[13.057s][info][gc,phases      ] GC(32) Phase 4: Move objects 0.015ms
+[13.058s][info][gc,heap        ] GC(32) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[13.058s][info][gc,heap        ] GC(32) Tenured: 26297K(699072K)->26297K(699072K)
+[13.058s][info][gc,metaspace   ] GC(32) Metaspace: 12036K(12224K)->12036K(12224K) NonClass: 10407K(10496K)->10407K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[13.058s][info][gc             ] GC(32) Pause Full (System.gc()) 151M->25M(989M) 105.088ms
+[13.058s][info][gc,cpu         ] GC(32) User=0.11s Sys=0.00s Real=0.11s
+[13.352s][info][gc,start       ] GC(33) Pause Full (System.gc())
+[13.353s][info][gc,phases,start] GC(33) Phase 1: Mark live objects
+[13.382s][info][gc,phases      ] GC(33) Phase 1: Mark live objects 29.112ms
+[13.382s][info][gc,phases,start] GC(33) Phase 2: Compute new object addresses
+[13.436s][info][gc,phases      ] GC(33) Phase 2: Compute new object addresses 54.211ms
+[13.436s][info][gc,phases,start] GC(33) Phase 3: Adjust pointers
+[13.447s][info][gc,phases      ] GC(33) Phase 3: Adjust pointers 10.630ms
+[13.447s][info][gc,phases,start] GC(33) Phase 4: Move objects
+[13.447s][info][gc,phases      ] GC(33) Phase 4: Move objects 0.012ms
+[13.447s][info][gc,heap        ] GC(33) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[13.447s][info][gc,heap        ] GC(33) Tenured: 26297K(699072K)->26297K(699072K)
+[13.447s][info][gc,metaspace   ] GC(33) Metaspace: 12036K(12224K)->12036K(12224K) NonClass: 10407K(10496K)->10407K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[13.447s][info][gc             ] GC(33) Pause Full (System.gc()) 151M->25M(989M) 94.409ms
+[13.447s][info][gc,cpu         ] GC(33) User=0.09s Sys=0.00s Real=0.09s
+[13.714s][info][gc,start       ] GC(34) Pause Full (System.gc())
+[13.714s][info][gc,phases,start] GC(34) Phase 1: Mark live objects
+[13.744s][info][gc,phases      ] GC(34) Phase 1: Mark live objects 29.822ms
+[13.744s][info][gc,phases,start] GC(34) Phase 2: Compute new object addresses
+[13.798s][info][gc,phases      ] GC(34) Phase 2: Compute new object addresses 54.562ms
+[13.798s][info][gc,phases,start] GC(34) Phase 3: Adjust pointers
+[13.809s][info][gc,phases      ] GC(34) Phase 3: Adjust pointers 10.613ms
+[13.809s][info][gc,phases,start] GC(34) Phase 4: Move objects
+[13.809s][info][gc,phases      ] GC(34) Phase 4: Move objects 0.012ms
+[13.809s][info][gc,heap        ] GC(34) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[13.809s][info][gc,heap        ] GC(34) Tenured: 26297K(699072K)->26298K(699072K)
+[13.809s][info][gc,metaspace   ] GC(34) Metaspace: 12036K(12224K)->12036K(12224K) NonClass: 10407K(10496K)->10407K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[13.809s][info][gc             ] GC(34) Pause Full (System.gc()) 151M->25M(989M) 95.423ms
+[13.809s][info][gc,cpu         ] GC(34) User=0.09s Sys=0.00s Real=0.09s
+[14.092s][info][gc,start       ] GC(35) Pause Full (System.gc())
+[14.092s][info][gc,phases,start] GC(35) Phase 1: Mark live objects
+[14.122s][info][gc,phases      ] GC(35) Phase 1: Mark live objects 29.527ms
+[14.122s][info][gc,phases,start] GC(35) Phase 2: Compute new object addresses
+[14.176s][info][gc,phases      ] GC(35) Phase 2: Compute new object addresses 54.372ms
+[14.176s][info][gc,phases,start] GC(35) Phase 3: Adjust pointers
+[14.187s][info][gc,phases      ] GC(35) Phase 3: Adjust pointers 10.642ms
+[14.187s][info][gc,phases,start] GC(35) Phase 4: Move objects
+[14.187s][info][gc,phases      ] GC(35) Phase 4: Move objects 0.013ms
+[14.187s][info][gc,heap        ] GC(35) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[14.187s][info][gc,heap        ] GC(35) Tenured: 26298K(699072K)->26297K(699072K)
+[14.187s][info][gc,metaspace   ] GC(35) Metaspace: 12036K(12224K)->12036K(12224K) NonClass: 10407K(10496K)->10407K(10496K) Class: 1628K(1728K)->1628K(1728K)
+[14.187s][info][gc             ] GC(35) Pause Full (System.gc()) 151M->25M(989M) 94.987ms
+[14.187s][info][gc,cpu         ] GC(35) User=0.09s Sys=0.00s Real=0.09s
+[14.480s][info][gc,start       ] GC(36) Pause Full (System.gc())
+[14.480s][info][gc,phases,start] GC(36) Phase 1: Mark live objects
+[14.508s][info][gc,phases      ] GC(36) Phase 1: Mark live objects 28.587ms
+[14.508s][info][gc,phases,start] GC(36) Phase 2: Compute new object addresses
+[14.562s][info][gc,phases      ] GC(36) Phase 2: Compute new object addresses 54.012ms
+[14.562s][info][gc,phases,start] GC(36) Phase 3: Adjust pointers
+[14.573s][info][gc,phases      ] GC(36) Phase 3: Adjust pointers 10.731ms
+[14.573s][info][gc,phases,start] GC(36) Phase 4: Move objects
+[14.573s][info][gc,phases      ] GC(36) Phase 4: Move objects 0.013ms
+[14.573s][info][gc,heap        ] GC(36) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[14.573s][info][gc,heap        ] GC(36) Tenured: 26297K(699072K)->26299K(699072K)
+[14.573s][info][gc,metaspace   ] GC(36) Metaspace: 12039K(12288K)->12039K(12288K) NonClass: 10410K(10560K)->10410K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[14.573s][info][gc             ] GC(36) Pause Full (System.gc()) 151M->25M(989M) 93.780ms
+[14.573s][info][gc,cpu         ] GC(36) User=0.09s Sys=0.00s Real=0.09s
+[14.854s][info][gc,start       ] GC(37) Pause Full (System.gc())
+[14.854s][info][gc,phases,start] GC(37) Phase 1: Mark live objects
+[14.870s][info][gc,phases      ] GC(37) Phase 1: Mark live objects 16.034ms
+[14.871s][info][gc,phases,start] GC(37) Phase 2: Compute new object addresses
+[14.924s][info][gc,phases      ] GC(37) Phase 2: Compute new object addresses 53.283ms
+[14.924s][info][gc,phases,start] GC(37) Phase 3: Adjust pointers
+[14.934s][info][gc,phases      ] GC(37) Phase 3: Adjust pointers 10.284ms
+[14.934s][info][gc,phases,start] GC(37) Phase 4: Move objects
+[14.934s][info][gc,phases      ] GC(37) Phase 4: Move objects 0.012ms
+[14.934s][info][gc,heap        ] GC(37) DefNew: 128624K(314560K)->0K(314560K) Eden: 128624K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[14.934s][info][gc,heap        ] GC(37) Tenured: 26299K(699072K)->26299K(699072K)
+[14.934s][info][gc,metaspace   ] GC(37) Metaspace: 12039K(12288K)->12039K(12288K) NonClass: 10411K(10560K)->10411K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[14.934s][info][gc             ] GC(37) Pause Full (System.gc()) 151M->25M(989M) 79.961ms
+[14.934s][info][gc,cpu         ] GC(37) User=0.08s Sys=0.00s Real=0.08s
+[15.200s][info][gc,start       ] GC(38) Pause Full (System.gc())
+[15.200s][info][gc,phases,start] GC(38) Phase 1: Mark live objects
+[15.230s][info][gc,phases      ] GC(38) Phase 1: Mark live objects 30.639ms
+[15.230s][info][gc,phases,start] GC(38) Phase 2: Compute new object addresses
+[15.285s][info][gc,phases      ] GC(38) Phase 2: Compute new object addresses 54.443ms
+[15.285s][info][gc,phases,start] GC(38) Phase 3: Adjust pointers
+[15.296s][info][gc,phases      ] GC(38) Phase 3: Adjust pointers 10.751ms
+[15.296s][info][gc,phases,start] GC(38) Phase 4: Move objects
+[15.296s][info][gc,phases      ] GC(38) Phase 4: Move objects 0.013ms
+[15.296s][info][gc,heap        ] GC(38) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[15.296s][info][gc,heap        ] GC(38) Tenured: 26299K(699072K)->26299K(699072K)
+[15.296s][info][gc,metaspace   ] GC(38) Metaspace: 12040K(12288K)->12040K(12288K) NonClass: 10411K(10560K)->10411K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[15.296s][info][gc             ] GC(38) Pause Full (System.gc()) 151M->25M(989M) 96.272ms
+[15.296s][info][gc,cpu         ] GC(38) User=0.09s Sys=0.00s Real=0.10s
+[15.560s][info][gc,start       ] GC(39) Pause Full (System.gc())
+[15.560s][info][gc,phases,start] GC(39) Phase 1: Mark live objects
+[15.590s][info][gc,phases      ] GC(39) Phase 1: Mark live objects 29.706ms
+[15.590s][info][gc,phases,start] GC(39) Phase 2: Compute new object addresses
+[15.645s][info][gc,phases      ] GC(39) Phase 2: Compute new object addresses 54.261ms
+[15.645s][info][gc,phases,start] GC(39) Phase 3: Adjust pointers
+[15.655s][info][gc,phases      ] GC(39) Phase 3: Adjust pointers 10.291ms
+[15.655s][info][gc,phases,start] GC(39) Phase 4: Move objects
+[15.655s][info][gc,phases      ] GC(39) Phase 4: Move objects 0.013ms
+[15.655s][info][gc,heap        ] GC(39) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[15.655s][info][gc,heap        ] GC(39) Tenured: 26299K(699072K)->26299K(699072K)
+[15.655s][info][gc,metaspace   ] GC(39) Metaspace: 12040K(12288K)->12040K(12288K) NonClass: 10411K(10560K)->10411K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[15.655s][info][gc             ] GC(39) Pause Full (System.gc()) 151M->25M(989M) 94.689ms
+[15.655s][info][gc,cpu         ] GC(39) User=0.09s Sys=0.00s Real=0.09s
+[15.922s][info][gc,start       ] GC(40) Pause Full (System.gc())
+[15.922s][info][gc,phases,start] GC(40) Phase 1: Mark live objects
+[15.953s][info][gc,phases      ] GC(40) Phase 1: Mark live objects 30.156ms
+[15.953s][info][gc,phases,start] GC(40) Phase 2: Compute new object addresses
+[16.007s][info][gc,phases      ] GC(40) Phase 2: Compute new object addresses 54.158ms
+[16.007s][info][gc,phases,start] GC(40) Phase 3: Adjust pointers
+[16.017s][info][gc,phases      ] GC(40) Phase 3: Adjust pointers 10.278ms
+[16.017s][info][gc,phases,start] GC(40) Phase 4: Move objects
+[16.017s][info][gc,phases      ] GC(40) Phase 4: Move objects 0.018ms
+[16.017s][info][gc,heap        ] GC(40) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[16.017s][info][gc,heap        ] GC(40) Tenured: 26299K(699072K)->26299K(699072K)
+[16.017s][info][gc,metaspace   ] GC(40) Metaspace: 12043K(12288K)->12043K(12288K) NonClass: 10414K(10560K)->10414K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[16.017s][info][gc             ] GC(40) Pause Full (System.gc()) 151M->25M(989M) 95.052ms
+[16.017s][info][gc,cpu         ] GC(40) User=0.11s Sys=0.00s Real=0.11s
+[16.283s][info][gc,start       ] GC(41) Pause Full (System.gc())
+[16.283s][info][gc,phases,start] GC(41) Phase 1: Mark live objects
+[16.313s][info][gc,phases      ] GC(41) Phase 1: Mark live objects 29.856ms
+[16.313s][info][gc,phases,start] GC(41) Phase 2: Compute new object addresses
+[16.367s][info][gc,phases      ] GC(41) Phase 2: Compute new object addresses 54.065ms
+[16.367s][info][gc,phases,start] GC(41) Phase 3: Adjust pointers
+[16.381s][info][gc,phases      ] GC(41) Phase 3: Adjust pointers 13.363ms
+[16.381s][info][gc,phases,start] GC(41) Phase 4: Move objects
+[16.381s][info][gc,phases      ] GC(41) Phase 4: Move objects 0.034ms
+[16.381s][info][gc,heap        ] GC(41) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[16.381s][info][gc,heap        ] GC(41) Tenured: 26299K(699072K)->26299K(699072K)
+[16.381s][info][gc,metaspace   ] GC(41) Metaspace: 12043K(12288K)->12043K(12288K) NonClass: 10414K(10560K)->10414K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[16.381s][info][gc             ] GC(41) Pause Full (System.gc()) 151M->25M(989M) 97.917ms
+[16.381s][info][gc,cpu         ] GC(41) User=0.09s Sys=0.00s Real=0.09s
+[16.645s][info][gc,start       ] GC(42) Pause Full (System.gc())
+[16.646s][info][gc,phases,start] GC(42) Phase 1: Mark live objects
+[16.676s][info][gc,phases      ] GC(42) Phase 1: Mark live objects 30.323ms
+[16.676s][info][gc,phases,start] GC(42) Phase 2: Compute new object addresses
+[16.730s][info][gc,phases      ] GC(42) Phase 2: Compute new object addresses 54.247ms
+[16.730s][info][gc,phases,start] GC(42) Phase 3: Adjust pointers
+[16.741s][info][gc,phases      ] GC(42) Phase 3: Adjust pointers 10.400ms
+[16.741s][info][gc,phases,start] GC(42) Phase 4: Move objects
+[16.741s][info][gc,phases      ] GC(42) Phase 4: Move objects 0.013ms
+[16.741s][info][gc,heap        ] GC(42) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[16.741s][info][gc,heap        ] GC(42) Tenured: 26299K(699072K)->26299K(699072K)
+[16.741s][info][gc,metaspace   ] GC(42) Metaspace: 12051K(12288K)->12051K(12288K) NonClass: 10422K(10560K)->10422K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[16.741s][info][gc             ] GC(42) Pause Full (System.gc()) 151M->25M(989M) 95.400ms
+[16.741s][info][gc,cpu         ] GC(42) User=0.09s Sys=0.00s Real=0.09s
+[17.008s][info][gc,start       ] GC(43) Pause Full (System.gc())
+[17.008s][info][gc,phases,start] GC(43) Phase 1: Mark live objects
+[17.038s][info][gc,phases      ] GC(43) Phase 1: Mark live objects 30.533ms
+[17.038s][info][gc,phases,start] GC(43) Phase 2: Compute new object addresses
+[17.093s][info][gc,phases      ] GC(43) Phase 2: Compute new object addresses 54.709ms
+[17.093s][info][gc,phases,start] GC(43) Phase 3: Adjust pointers
+[17.104s][info][gc,phases      ] GC(43) Phase 3: Adjust pointers 10.666ms
+[17.104s][info][gc,phases,start] GC(43) Phase 4: Move objects
+[17.104s][info][gc,phases      ] GC(43) Phase 4: Move objects 0.013ms
+[17.104s][info][gc,heap        ] GC(43) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[17.104s][info][gc,heap        ] GC(43) Tenured: 26299K(699072K)->26299K(699072K)
+[17.104s][info][gc,metaspace   ] GC(43) Metaspace: 12055K(12288K)->12055K(12288K) NonClass: 10426K(10560K)->10426K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[17.104s][info][gc             ] GC(43) Pause Full (System.gc()) 151M->25M(989M) 96.365ms
+[17.104s][info][gc,cpu         ] GC(43) User=0.11s Sys=0.00s Real=0.10s
+[17.376s][info][gc,start       ] GC(44) Pause Full (System.gc())
+[17.376s][info][gc,phases,start] GC(44) Phase 1: Mark live objects
+[17.404s][info][gc,phases      ] GC(44) Phase 1: Mark live objects 27.766ms
+[17.404s][info][gc,phases,start] GC(44) Phase 2: Compute new object addresses
+[17.458s][info][gc,phases      ] GC(44) Phase 2: Compute new object addresses 54.150ms
+[17.458s][info][gc,phases,start] GC(44) Phase 3: Adjust pointers
+[17.468s][info][gc,phases      ] GC(44) Phase 3: Adjust pointers 10.567ms
+[17.468s][info][gc,phases,start] GC(44) Phase 4: Move objects
+[17.468s][info][gc,phases      ] GC(44) Phase 4: Move objects 0.013ms
+[17.469s][info][gc,heap        ] GC(44) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[17.469s][info][gc,heap        ] GC(44) Tenured: 26299K(699072K)->26299K(699072K)
+[17.469s][info][gc,metaspace   ] GC(44) Metaspace: 12055K(12288K)->12055K(12288K) NonClass: 10426K(10560K)->10426K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[17.469s][info][gc             ] GC(44) Pause Full (System.gc()) 151M->25M(989M) 92.919ms
+[17.469s][info][gc,cpu         ] GC(44) User=0.08s Sys=0.00s Real=0.08s
+[17.736s][info][gc,start       ] GC(45) Pause Full (System.gc())
+[17.736s][info][gc,phases,start] GC(45) Phase 1: Mark live objects
+[17.765s][info][gc,phases      ] GC(45) Phase 1: Mark live objects 28.894ms
+[17.765s][info][gc,phases,start] GC(45) Phase 2: Compute new object addresses
+[17.819s][info][gc,phases      ] GC(45) Phase 2: Compute new object addresses 54.423ms
+[17.820s][info][gc,phases,start] GC(45) Phase 3: Adjust pointers
+[17.830s][info][gc,phases      ] GC(45) Phase 3: Adjust pointers 10.738ms
+[17.830s][info][gc,phases,start] GC(45) Phase 4: Move objects
+[17.830s][info][gc,phases      ] GC(45) Phase 4: Move objects 0.013ms
+[17.830s][info][gc,heap        ] GC(45) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[17.830s][info][gc,heap        ] GC(45) Tenured: 26299K(699072K)->26299K(699072K)
+[17.830s][info][gc,metaspace   ] GC(45) Metaspace: 12055K(12288K)->12055K(12288K) NonClass: 10426K(10560K)->10426K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[17.830s][info][gc             ] GC(45) Pause Full (System.gc()) 151M->25M(989M) 94.494ms
+[17.830s][info][gc,cpu         ] GC(45) User=0.09s Sys=0.00s Real=0.09s
+[18.111s][info][gc,start       ] GC(46) Pause Full (System.gc())
+[18.111s][info][gc,phases,start] GC(46) Phase 1: Mark live objects
+[18.127s][info][gc,phases      ] GC(46) Phase 1: Mark live objects 16.049ms
+[18.127s][info][gc,phases,start] GC(46) Phase 2: Compute new object addresses
+[18.180s][info][gc,phases      ] GC(46) Phase 2: Compute new object addresses 53.437ms
+[18.180s][info][gc,phases,start] GC(46) Phase 3: Adjust pointers
+[18.191s][info][gc,phases      ] GC(46) Phase 3: Adjust pointers 10.486ms
+[18.191s][info][gc,phases,start] GC(46) Phase 4: Move objects
+[18.191s][info][gc,phases      ] GC(46) Phase 4: Move objects 0.012ms
+[18.191s][info][gc,heap        ] GC(46) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[18.191s][info][gc,heap        ] GC(46) Tenured: 26299K(699072K)->26299K(699072K)
+[18.191s][info][gc,metaspace   ] GC(46) Metaspace: 12055K(12288K)->12055K(12288K) NonClass: 10426K(10560K)->10426K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[18.191s][info][gc             ] GC(46) Pause Full (System.gc()) 151M->25M(989M) 80.317ms
+[18.191s][info][gc,cpu         ] GC(46) User=0.08s Sys=0.00s Real=0.08s
+[18.456s][info][gc,start       ] GC(47) Pause Full (System.gc())
+[18.456s][info][gc,phases,start] GC(47) Phase 1: Mark live objects
+[18.486s][info][gc,phases      ] GC(47) Phase 1: Mark live objects 29.944ms
+[18.486s][info][gc,phases,start] GC(47) Phase 2: Compute new object addresses
+[18.541s][info][gc,phases      ] GC(47) Phase 2: Compute new object addresses 54.159ms
+[18.541s][info][gc,phases,start] GC(47) Phase 3: Adjust pointers
+[18.551s][info][gc,phases      ] GC(47) Phase 3: Adjust pointers 10.376ms
+[18.551s][info][gc,phases,start] GC(47) Phase 4: Move objects
+[18.551s][info][gc,phases      ] GC(47) Phase 4: Move objects 0.013ms
+[18.551s][info][gc,heap        ] GC(47) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[18.551s][info][gc,heap        ] GC(47) Tenured: 26299K(699072K)->26299K(699072K)
+[18.551s][info][gc,metaspace   ] GC(47) Metaspace: 12055K(12288K)->12055K(12288K) NonClass: 10426K(10560K)->10426K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[18.551s][info][gc             ] GC(47) Pause Full (System.gc()) 151M->25M(989M) 94.922ms
+[18.551s][info][gc,cpu         ] GC(47) User=0.09s Sys=0.00s Real=0.09s
+[18.818s][info][gc,start       ] GC(48) Pause Full (System.gc())
+[18.818s][info][gc,phases,start] GC(48) Phase 1: Mark live objects
+[18.849s][info][gc,phases      ] GC(48) Phase 1: Mark live objects 30.567ms
+[18.849s][info][gc,phases,start] GC(48) Phase 2: Compute new object addresses
+[18.904s][info][gc,phases      ] GC(48) Phase 2: Compute new object addresses 55.310ms
+[18.904s][info][gc,phases,start] GC(48) Phase 3: Adjust pointers
+[18.914s][info][gc,phases      ] GC(48) Phase 3: Adjust pointers 10.360ms
+[18.914s][info][gc,phases,start] GC(48) Phase 4: Move objects
+[18.914s][info][gc,phases      ] GC(48) Phase 4: Move objects 0.013ms
+[18.914s][info][gc,heap        ] GC(48) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[18.914s][info][gc,heap        ] GC(48) Tenured: 26299K(699072K)->26299K(699072K)
+[18.914s][info][gc,metaspace   ] GC(48) Metaspace: 12055K(12288K)->12055K(12288K) NonClass: 10426K(10560K)->10426K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[18.915s][info][gc             ] GC(48) Pause Full (System.gc()) 151M->25M(989M) 96.680ms
+[18.915s][info][gc,cpu         ] GC(48) User=0.09s Sys=0.00s Real=0.10s
+[19.179s][info][gc,start       ] GC(49) Pause Full (System.gc())
+[19.179s][info][gc,phases,start] GC(49) Phase 1: Mark live objects
+[19.210s][info][gc,phases      ] GC(49) Phase 1: Mark live objects 30.769ms
+[19.210s][info][gc,phases,start] GC(49) Phase 2: Compute new object addresses
+[19.295s][info][gc,phases      ] GC(49) Phase 2: Compute new object addresses 85.471ms
+[19.295s][info][gc,phases,start] GC(49) Phase 3: Adjust pointers
+[19.306s][info][gc,phases      ] GC(49) Phase 3: Adjust pointers 10.799ms
+[19.306s][info][gc,phases,start] GC(49) Phase 4: Move objects
+[19.306s][info][gc,phases      ] GC(49) Phase 4: Move objects 0.013ms
+[19.306s][info][gc,heap        ] GC(49) DefNew: 128623K(314560K)->0K(314560K) Eden: 128623K(279616K)->0K(279616K) From: 0K(34944K)->0K(34944K)
+[19.306s][info][gc,heap        ] GC(49) Tenured: 26299K(699072K)->26299K(699072K)
+[19.306s][info][gc,metaspace   ] GC(49) Metaspace: 12070K(12288K)->12070K(12288K) NonClass: 10441K(10560K)->10441K(10560K) Class: 1628K(1728K)->1628K(1728K)
+[19.306s][info][gc             ] GC(49) Pause Full (System.gc()) 151M->25M(989M) 127.489ms
+[19.306s][info][gc,cpu         ] GC(49) User=0.13s Sys=0.00s Real=0.13s
+[19.581s][info][gc,heap,exit   ] Heap
+[19.581s][info][gc,heap,exit   ]  def new generation   total 314560K, used 156585K [0x00000000c0000000, 0x00000000d5550000, 0x00000000d5550000)
+[19.581s][info][gc,heap,exit   ]   eden space 279616K,  56% used [0x00000000c0000000, 0x00000000c98ea660, 0x00000000d1110000)
+[19.581s][info][gc,heap,exit   ]   from space 34944K,   0% used [0x00000000d1110000, 0x00000000d1110000, 0x00000000d3330000)
+[19.581s][info][gc,heap,exit   ]   to   space 34944K,   0% used [0x00000000d3330000, 0x00000000d3330000, 0x00000000d5550000)
+[19.581s][info][gc,heap,exit   ]  tenured generation   total 699072K, used 26299K [0x00000000d5550000, 0x0000000100000000, 0x0000000100000000)
+[19.581s][info][gc,heap,exit   ]    the space 699072K,   3% used [0x00000000d5550000, 0x00000000d6efeee8, 0x00000000d6eff000, 0x0000000100000000)
+[19.581s][info][gc,heap,exit   ]  Metaspace       used 12134K, committed 12352K, reserved 1114112K
+[19.581s][info][gc,heap,exit   ]   class space    used 1638K, committed 1728K, reserved 1048576K
