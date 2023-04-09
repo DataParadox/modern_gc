@@ -1,0 +1,67 @@
+[0.015s][info][gc] Using Epsilon
+[0.021s][info][gc,init] Version: 20+36-2344 (release)
+[0.021s][info][gc,init] CPUs: 48 total, 48 available
+[0.021s][info][gc,init] Memory: 382G
+[0.021s][info][gc,init] Large Page Support: Disabled
+[0.021s][info][gc,init] NUMA Support: Disabled
+[0.021s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[0.021s][info][gc,init] Heap Min Capacity: 6656K
+[0.021s][info][gc,init] Heap Initial Capacity: 2G
+[0.021s][info][gc,init] Heap Max Capacity: 30718M
+[0.021s][info][gc,init] Pre-touch: Disabled
+[0.021s][warning][gc,init] Consider setting -Xms equal to -Xmx to avoid resizing hiccups
+[0.031s][warning][gc,init] Consider enabling -XX:+AlwaysPreTouch to avoid memory commit hiccups
+[0.031s][info   ][gc,init] TLAB Size Max: 4M
+[0.031s][info   ][gc,init] TLAB Size Elasticity: 1.10x
+[0.031s][info   ][gc,init] TLAB Size Decay Time: 1000ms
+[0.032s][info   ][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.033s][info   ][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.033s][info   ][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[9.700s][info   ][gc          ] GC request for "Metadata GC Threshold" is handled
+[9.700s][info   ][gc,metaspace] Metaspace: 1088M reserved, 21504K (1.93%) committed, 21271K (1.91%) used
+[10.577s][info   ][gc          ] GC request for "Metadata GC Threshold" is handled
+[10.577s][info   ][gc,metaspace] Metaspace: 1088M reserved, 35840K (3.22%) committed, 35461K (3.18%) used
+[13.280s][info   ][gc          ] GC request for "System.gc()" is ignored
+[13.870s][info   ][gc          ] GC request for "Metadata GC Threshold" is handled
+[13.870s][info   ][gc,metaspace] Metaspace: 1088M reserved, 59776K (5.37%) committed, 58979K (5.29%) used
+[14.436s][info   ][gc          ] Heap: 30718M reserved, 2048M (6.67%) committed, 1537M (5.01%) used
+[14.436s][info   ][gc,metaspace] Metaspace: 1088M reserved, 60416K (5.42%) committed, 59570K (5.35%) used
+[15.171s][info   ][gc          ] Heap: 30718M reserved, 3200M (10.42%) committed, 3074M (10.01%) used
+[15.171s][info   ][gc,metaspace] Metaspace: 1088M reserved, 61056K (5.48%) committed, 60154K (5.40%) used
+[16.009s][info   ][gc          ] Heap: 30718M reserved, 4736M (15.42%) committed, 4610M (15.01%) used
+[16.009s][info   ][gc,metaspace] Metaspace: 1088M reserved, 61056K (5.48%) committed, 60157K (5.40%) used
+[17.666s][info   ][gc          ] Heap: 30718M reserved, 6272M (20.42%) committed, 6149M (20.02%) used
+[17.666s][info   ][gc,metaspace] Metaspace: 1088M reserved, 62848K (5.64%) committed, 61920K (5.56%) used
+[19.238s][info   ][gc          ] Heap: 30718M reserved, 7808M (25.42%) committed, 7687M (25.03%) used
+[19.238s][info   ][gc,metaspace] Metaspace: 1088M reserved, 63424K (5.69%) committed, 62417K (5.60%) used
+[21.380s][info   ][gc          ] Heap: 30718M reserved, 9344M (30.42%) committed, 9225M (30.03%) used
+[21.380s][info   ][gc,metaspace] Metaspace: 1088M reserved, 63808K (5.73%) committed, 62776K (5.63%) used
+[23.447s][info   ][gc          ] Heap: 30718M reserved, 10880M (35.42%) committed, 10765M (35.05%) used
+[23.447s][info   ][gc,metaspace] Metaspace: 1088M reserved, 64704K (5.81%) committed, 63498K (5.70%) used
+[25.649s][info   ][gc          ] Heap: 30718M reserved, 12416M (40.42%) committed, 12304M (40.06%) used
+[25.649s][info   ][gc,metaspace] Metaspace: 1088M reserved, 66688K (5.99%) committed, 65465K (5.88%) used
+[25.958s][info   ][gc          ] GC request for "System.gc()" is ignored
+[26.825s][info   ][gc          ] Heap: 30718M reserved, 13952M (45.42%) committed, 13841M (45.06%) used
+[26.825s][info   ][gc,metaspace] Metaspace: 1088M reserved, 66880K (6.00%) committed, 65641K (5.89%) used
+[28.614s][info   ][gc          ] Heap: 30718M reserved, 15488M (50.42%) committed, 15380M (50.07%) used
+[28.614s][info   ][gc,metaspace] Metaspace: 1088M reserved, 66880K (6.00%) committed, 65718K (5.90%) used
+[30.746s][info   ][gc          ] Heap: 30718M reserved, 17024M (55.42%) committed, 16916M (55.07%) used
+[30.746s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67392K (6.05%) committed, 66153K (5.94%) used
+[32.459s][info   ][gc          ] Heap: 30718M reserved, 18560M (60.42%) committed, 18453M (60.07%) used
+[32.460s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67520K (6.06%) committed, 66234K (5.95%) used
+[32.654s][info   ][gc          ] GC request for "System.gc()" is ignored
+[33.551s][info   ][gc          ] Heap: 30718M reserved, 20096M (65.42%) committed, 19992M (65.08%) used
+[33.551s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67520K (6.06%) committed, 66310K (5.95%) used
+[35.211s][info   ][gc          ] Heap: 30718M reserved, 21632M (70.42%) committed, 21529M (70.09%) used
+[35.211s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67584K (6.07%) committed, 66375K (5.96%) used
+[37.273s][info   ][gc          ] Heap: 30718M reserved, 23168M (75.42%) committed, 23068M (75.10%) used
+[37.273s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67712K (6.08%) committed, 66497K (5.97%) used
+[38.626s][info   ][gc          ] Heap: 30718M reserved, 24704M (80.42%) committed, 24605M (80.10%) used
+[38.626s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67840K (6.09%) committed, 66608K (5.98%) used
+[38.742s][info   ][gc          ] GC request for "System.gc()" is ignored
+[39.698s][info   ][gc          ] Heap: 30718M reserved, 26240M (85.42%) committed, 26144M (85.11%) used
+[39.698s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67904K (6.09%) committed, 66656K (5.98%) used
+[41.388s][info   ][gc          ] Heap: 30718M reserved, 27776M (90.42%) committed, 27684M (90.12%) used
+[41.388s][info   ][gc,metaspace] Metaspace: 1088M reserved, 67968K (6.10%) committed, 66758K (5.99%) used
+[43.482s][info   ][gc          ] Heap: 30718M reserved, 29312M (95.42%) committed, 29223M (95.13%) used
+[43.482s][info   ][gc,metaspace] Metaspace: 1088M reserved, 68096K (6.11%) committed, 66871K (6.00%) used
