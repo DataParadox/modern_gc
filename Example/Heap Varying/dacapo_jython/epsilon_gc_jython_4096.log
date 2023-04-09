@@ -1,0 +1,46 @@
+[0.015s][info][gc] Using Epsilon
+[0.021s][info][gc,init] Version: 20+36-2344 (release)
+[0.021s][info][gc,init] CPUs: 48 total, 48 available
+[0.021s][info][gc,init] Memory: 382G
+[0.021s][info][gc,init] Large Page Support: Disabled
+[0.021s][info][gc,init] NUMA Support: Disabled
+[0.021s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[0.021s][info][gc,init] Heap Min Capacity: 6656K
+[0.021s][info][gc,init] Heap Initial Capacity: 2G
+[0.021s][info][gc,init] Heap Max Capacity: 4G
+[0.021s][info][gc,init] Pre-touch: Disabled
+[0.021s][warning][gc,init] Consider setting -Xms equal to -Xmx to avoid resizing hiccups
+[0.051s][warning][gc,init] Consider enabling -XX:+AlwaysPreTouch to avoid memory commit hiccups
+[0.051s][info   ][gc,init] TLAB Size Max: 4M
+[0.051s][info   ][gc,init] TLAB Size Elasticity: 1.10x
+[0.051s][info   ][gc,init] TLAB Size Decay Time: 1000ms
+[0.053s][info   ][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.053s][info   ][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.053s][info   ][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[8.851s][info   ][gc          ] GC request for "System.gc()" is ignored
+[9.581s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 205M (5.01%) used
+[9.581s][info   ][gc,metaspace] Metaspace: 1088M reserved, 17408K (1.56%) committed, 16979K (1.52%) used
+[10.243s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 413M (10.10%) used
+[10.243s][info   ][gc,metaspace] Metaspace: 1088M reserved, 18304K (1.64%) committed, 17799K (1.60%) used
+[11.086s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 618M (15.10%) used
+[11.086s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19072K (1.71%) committed, 18551K (1.67%) used
+[11.786s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 826M (20.18%) used
+[11.786s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19136K (1.72%) committed, 18670K (1.68%) used
+[12.380s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 1034M (25.26%) used
+[12.380s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19200K (1.72%) committed, 18688K (1.68%) used
+[12.624s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 1242M (30.34%) used
+[12.624s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19264K (1.73%) committed, 18745K (1.68%) used
+[13.494s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 1450M (35.41%) used
+[13.494s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19392K (1.74%) committed, 18914K (1.70%) used
+[14.690s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 1658M (40.49%) used
+[14.690s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19520K (1.75%) committed, 19012K (1.71%) used
+[15.253s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 1866M (45.57%) used
+[15.253s][info   ][gc,metaspace] Metaspace: 1088M reserved, 19840K (1.78%) committed, 19377K (1.74%) used
+[17.172s][info   ][gc,heap,exit] Heap
+[17.172s][info   ][gc,heap,exit] Epsilon Heap
+[17.172s][info   ][gc,heap,exit] Allocation space:
+[17.172s][info   ][gc,heap,exit]  space 2097152K,  96% used [0x0000000700000000, 0x000000077ba91458, 0x0000000780000000)
+[17.172s][info   ][gc,heap,exit]  Metaspace       used 19879K, committed 20416K, reserved 1114112K
+[17.172s][info   ][gc,heap,exit]   class space    used 3838K, committed 4032K, reserved 1048576K
+[17.172s][info   ][gc          ] Heap: 4096M reserved, 2048M (50.00%) committed, 1978M (48.30%) used
+[17.172s][info   ][gc,metaspace] Metaspace: 1088M reserved, 20416K (1.83%) committed, 19879K (1.78%) used
