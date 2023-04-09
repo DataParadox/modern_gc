@@ -1,0 +1,43 @@
+[0.016s][info][gc,init] CardTable entry size: 512
+[0.017s][info][gc     ] Using G1
+[0.041s][info][gc,init] Version: 20+36-2344 (release)
+[0.041s][info][gc,init] CPUs: 48 total, 48 available
+[0.041s][info][gc,init] Memory: 382G
+[0.041s][info][gc,init] Large Page Support: Disabled
+[0.041s][info][gc,init] NUMA Support: Disabled
+[0.041s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.041s][info][gc,init] Heap Region Size: 1M
+[0.041s][info][gc,init] Heap Min Capacity: 8M
+[0.041s][info][gc,init] Heap Initial Capacity: 2G
+[0.041s][info][gc,init] Heap Max Capacity: 2G
+[0.041s][info][gc,init] Pre-touch: Disabled
+[0.047s][info][gc,init] Parallel Workers: 33
+[0.047s][info][gc,init] Concurrent Workers: 8
+[0.047s][info][gc,init] Concurrent Refinement Workers: 33
+[0.047s][info][gc,init] Periodic GC: Disabled
+[0.048s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.048s][info][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.048s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[4.362s][info][gc,start    ] GC(0) Pause Full (System.gc())
+[4.363s][info][gc,task     ] GC(0) Using 17 workers of 33 for full compaction
+[4.363s][info][gc,phases,start] GC(0) Phase 1: Mark live objects
+[4.368s][info][gc,phases      ] GC(0) Phase 1: Mark live objects 4.789ms
+[4.368s][info][gc,phases,start] GC(0) Phase 2: Prepare compaction
+[4.372s][info][gc,phases      ] GC(0) Phase 2: Prepare compaction 3.604ms
+[4.372s][info][gc,phases,start] GC(0) Phase 3: Adjust pointers
+[4.374s][info][gc,phases      ] GC(0) Phase 3: Adjust pointers 2.185ms
+[4.374s][info][gc,phases,start] GC(0) Phase 4: Compact heap
+[4.375s][info][gc,phases      ] GC(0) Phase 4: Compact heap 1.277ms
+[4.389s][info][gc,heap        ] GC(0) Eden regions: 17->0(20)
+[4.389s][info][gc,heap        ] GC(0) Survivor regions: 0->0(0)
+[4.389s][info][gc,heap        ] GC(0) Old regions: 0->17
+[4.389s][info][gc,heap        ] GC(0) Archive regions: 0->0
+[4.389s][info][gc,heap        ] GC(0) Humongous regions: 0->0
+[4.389s][info][gc,metaspace   ] GC(0) Metaspace: 4524K(4736K)->4524K(4736K) NonClass: 4089K(4224K)->4089K(4224K) Class: 435K(512K)->435K(512K)
+[4.389s][info][gc             ] GC(0) Pause Full (System.gc()) 17M->2M(57M) 27.486ms
+[4.389s][info][gc,cpu         ] GC(0) User=0.00s Sys=0.27s Real=0.02s
+[4.420s][info][gc,heap,exit   ] Heap
+[4.420s][info][gc,heap,exit   ]  garbage-first heap   total 58368K, used 3925K [0x0000000080000000, 0x0000000100000000)
+[4.420s][info][gc,heap,exit   ]   region size 1024K, 2 young (2048K), 0 survivors (0K)
+[4.420s][info][gc,heap,exit   ]  Metaspace       used 4548K, committed 4736K, reserved 1114112K
+[4.420s][info][gc,heap,exit   ]   class space    used 437K, committed 512K, reserved 1048576K
