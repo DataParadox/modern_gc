@@ -1,0 +1,141 @@
+[0.015s][info][gc,init] CardTable entry size: 512
+[0.016s][info][gc     ] Using G1
+[0.029s][info][gc,init] Version: 20+36-2344 (release)
+[0.029s][info][gc,init] CPUs: 48 total, 48 available
+[0.029s][info][gc,init] Memory: 382G
+[0.029s][info][gc,init] Large Page Support: Disabled
+[0.029s][info][gc,init] NUMA Support: Disabled
+[0.029s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.029s][info][gc,init] Heap Region Size: 1M
+[0.029s][info][gc,init] Heap Min Capacity: 8M
+[0.029s][info][gc,init] Heap Initial Capacity: 1G
+[0.029s][info][gc,init] Heap Max Capacity: 1G
+[0.029s][info][gc,init] Pre-touch: Disabled
+[0.038s][info][gc,init] Parallel Workers: 33
+[0.038s][info][gc,init] Concurrent Workers: 8
+[0.038s][info][gc,init] Concurrent Refinement Workers: 33
+[0.038s][info][gc,init] Periodic GC: Disabled
+[0.039s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c60000-0x0000000800c60000), size 12976128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[0.039s][info][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[0.039s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[0.454s][info][gc,start    ] GC(0) Pause Full (System.gc())
+[0.454s][info][gc,task     ] GC(0) Using 7 workers of 33 for full compaction
+[0.455s][info][gc,phases,start] GC(0) Phase 1: Mark live objects
+[0.457s][info][gc,phases      ] GC(0) Phase 1: Mark live objects 1.634ms
+[0.457s][info][gc,phases,start] GC(0) Phase 2: Prepare compaction
+[0.458s][info][gc,phases      ] GC(0) Phase 2: Prepare compaction 1.552ms
+[0.458s][info][gc,phases,start] GC(0) Phase 3: Adjust pointers
+[0.459s][info][gc,phases      ] GC(0) Phase 3: Adjust pointers 0.914ms
+[0.459s][info][gc,phases,start] GC(0) Phase 4: Compact heap
+[0.460s][info][gc,phases      ] GC(0) Phase 4: Compact heap 0.951ms
+[0.467s][info][gc,heap        ] GC(0) Eden regions: 7->0(8)
+[0.467s][info][gc,heap        ] GC(0) Survivor regions: 0->0(0)
+[0.467s][info][gc,heap        ] GC(0) Old regions: 0->7
+[0.467s][info][gc,heap        ] GC(0) Archive regions: 0->0
+[0.467s][info][gc,heap        ] GC(0) Humongous regions: 0->0
+[0.467s][info][gc,metaspace   ] GC(0) Metaspace: 1304K(1536K)->1304K(1536K) NonClass: 1184K(1280K)->1184K(1280K) Class: 120K(256K)->120K(256K)
+[0.467s][info][gc             ] GC(0) Pause Full (System.gc()) 6M->1M(24M) 13.490ms
+[0.467s][info][gc,cpu         ] GC(0) User=0.00s Sys=0.11s Real=0.02s
+[0.637s][info][gc,start       ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[0.637s][info][gc,task        ] GC(1) Using 4 workers of 33 for evacuation
+[0.639s][info][gc,phases      ] GC(1)   Pre Evacuate Collection Set: 0.1ms
+[0.639s][info][gc,phases      ] GC(1)   Merge Heap Roots: 0.1ms
+[0.639s][info][gc,phases      ] GC(1)   Evacuate Collection Set: 1.4ms
+[0.639s][info][gc,phases      ] GC(1)   Post Evacuate Collection Set: 0.5ms
+[0.639s][info][gc,phases      ] GC(1)   Other: 0.2ms
+[0.639s][info][gc,heap        ] GC(1) Eden regions: 8->0(10)
+[0.639s][info][gc,heap        ] GC(1) Survivor regions: 0->1(1)
+[0.639s][info][gc,heap        ] GC(1) Old regions: 7->8
+[0.639s][info][gc,heap        ] GC(1) Archive regions: 0->0
+[0.639s][info][gc,heap        ] GC(1) Humongous regions: 0->0
+[0.639s][info][gc,metaspace   ] GC(1) Metaspace: 3395K(3584K)->3395K(3584K) NonClass: 2957K(3072K)->2957K(3072K) Class: 438K(512K)->438K(512K)
+[0.639s][info][gc             ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 9M->2M(24M) 2.638ms
+[0.639s][info][gc,cpu         ] GC(1) User=0.00s Sys=0.00s Real=0.00s
+[0.835s][info][gc,start       ] GC(2) Pause Young (Normal) (G1 Evacuation Pause)
+[0.835s][info][gc,task        ] GC(2) Using 3 workers of 33 for evacuation
+[0.845s][info][gc,phases      ] GC(2)   Pre Evacuate Collection Set: 0.0ms
+[0.845s][info][gc,phases      ] GC(2)   Merge Heap Roots: 0.0ms
+[0.845s][info][gc,phases      ] GC(2)   Evacuate Collection Set: 10.1ms
+[0.845s][info][gc,phases      ] GC(2)   Post Evacuate Collection Set: 0.4ms
+[0.846s][info][gc,phases      ] GC(2)   Other: 0.1ms
+[0.846s][info][gc,heap        ] GC(2) Eden regions: 10->0(7)
+[0.846s][info][gc,heap        ] GC(2) Survivor regions: 1->2(2)
+[0.846s][info][gc,heap        ] GC(2) Old regions: 8->10
+[0.846s][info][gc,heap        ] GC(2) Archive regions: 0->0
+[0.846s][info][gc,heap        ] GC(2) Humongous regions: 0->0
+[0.846s][info][gc,metaspace   ] GC(2) Metaspace: 6283K(6528K)->6283K(6528K) NonClass: 5460K(5568K)->5460K(5568K) Class: 823K(960K)->823K(960K)
+[0.846s][info][gc             ] GC(2) Pause Young (Normal) (G1 Evacuation Pause) 12M->6M(24M) 11.157ms
+[0.846s][info][gc,cpu         ] GC(2) User=0.08s Sys=0.00s Real=0.02s
+[1.038s][info][gc,start       ] GC(3) Pause Young (Normal) (G1 Evacuation Pause)
+[1.038s][info][gc,task        ] GC(3) Using 2 workers of 33 for evacuation
+[1.057s][info][gc,phases      ] GC(3)   Pre Evacuate Collection Set: 0.1ms
+[1.057s][info][gc,phases      ] GC(3)   Merge Heap Roots: 0.1ms
+[1.057s][info][gc,phases      ] GC(3)   Evacuate Collection Set: 18.6ms
+[1.057s][info][gc,phases      ] GC(3)   Post Evacuate Collection Set: 0.6ms
+[1.057s][info][gc,phases      ] GC(3)   Other: 0.1ms
+[1.057s][info][gc,heap        ] GC(3) Eden regions: 7->0(4)
+[1.057s][info][gc,heap        ] GC(3) Survivor regions: 2->2(2)
+[1.057s][info][gc,heap        ] GC(3) Old regions: 10->13
+[1.057s][info][gc,heap        ] GC(3) Archive regions: 0->0
+[1.057s][info][gc,heap        ] GC(3) Humongous regions: 0->0
+[1.058s][info][gc,metaspace   ] GC(3) Metaspace: 8392K(8640K)->8392K(8640K) NonClass: 7400K(7552K)->7400K(7552K) Class: 991K(1088K)->991K(1088K)
+[1.058s][info][gc             ] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 13M->9M(24M) 20.029ms
+[1.058s][info][gc,cpu         ] GC(3) User=0.05s Sys=0.00s Real=0.02s
+[1.134s][info][gc,start       ] GC(4) Pause Young (Concurrent Start) (G1 Evacuation Pause)
+[1.134s][info][gc,task        ] GC(4) Using 2 workers of 33 for evacuation
+[1.144s][info][gc,phases      ] GC(4)   Pre Evacuate Collection Set: 0.2ms
+[1.144s][info][gc,phases      ] GC(4)   Merge Heap Roots: 0.0ms
+[1.144s][info][gc,phases      ] GC(4)   Evacuate Collection Set: 2.9ms
+[1.144s][info][gc,phases      ] GC(4)   Post Evacuate Collection Set: 6.8ms
+[1.144s][info][gc,phases      ] GC(4)   Other: 0.1ms
+[1.144s][info][gc,heap        ] GC(4) Eden regions: 4->0(47)
+[1.144s][info][gc,heap        ] GC(4) Survivor regions: 2->1(1)
+[1.144s][info][gc,heap        ] GC(4) Old regions: 13->16
+[1.144s][info][gc,heap        ] GC(4) Archive regions: 0->0
+[1.144s][info][gc,heap        ] GC(4) Humongous regions: 0->0
+[1.144s][info][gc,metaspace   ] GC(4) Metaspace: 8489K(8704K)->8489K(8704K) NonClass: 7493K(7616K)->7493K(7616K) Class: 995K(1088K)->995K(1088K)
+[1.144s][info][gc             ] GC(4) Pause Young (Concurrent Start) (G1 Evacuation Pause) 13M->10M(524M) 10.636ms
+[1.144s][info][gc             ] GC(5) Concurrent Mark Cycle
+[1.144s][info][gc,cpu         ] GC(4) User=0.03s Sys=0.00s Real=0.02s
+[1.144s][info][gc,marking     ] GC(5) Concurrent Scan Root Regions
+[1.146s][info][gc,marking     ] GC(5) Concurrent Scan Root Regions 1.969ms
+[1.146s][info][gc,marking     ] GC(5) Concurrent Mark
+[1.146s][info][gc,marking     ] GC(5) Concurrent Mark From Roots
+[1.147s][info][gc,task        ] GC(5) Using 8 workers of 8 for marking
+[1.154s][info][gc,marking     ] GC(5) Concurrent Mark From Roots 7.065ms
+[1.154s][info][gc,marking     ] GC(5) Concurrent Preclean
+[1.154s][info][gc,marking     ] GC(5) Concurrent Preclean 0.055ms
+[1.154s][info][gc,start       ] GC(5) Pause Remark
+[1.157s][info][gc             ] GC(5) Pause Remark 10M->10M(60M) 2.876ms
+[1.157s][info][gc,cpu         ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[1.157s][info][gc,marking     ] GC(5) Concurrent Mark 10.344ms
+[1.157s][info][gc,marking     ] GC(5) Concurrent Rebuild Remembered Sets and Scrub Regions
+[1.162s][info][gc,marking     ] GC(5) Concurrent Rebuild Remembered Sets and Scrub Regions 4.802ms
+[1.162s][info][gc,start       ] GC(5) Pause Cleanup
+[1.162s][info][gc             ] GC(5) Pause Cleanup 10M->10M(60M) 0.267ms
+[1.162s][info][gc,cpu         ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[1.162s][info][gc,marking     ] GC(5) Concurrent Clear Claimed Marks
+[1.162s][info][gc,marking     ] GC(5) Concurrent Clear Claimed Marks 0.038ms
+[1.162s][info][gc,marking     ] GC(5) Concurrent Cleanup for Next Mark
+[1.163s][info][gc,marking     ] GC(5) Concurrent Cleanup for Next Mark 0.651ms
+[1.163s][info][gc             ] GC(5) Concurrent Mark Cycle 18.598ms
+[2.090s][info][gc,start       ] GC(6) Pause Young (Prepare Mixed) (G1 Evacuation Pause)
+[2.090s][info][gc,task        ] GC(6) Using 2 workers of 33 for evacuation
+[2.114s][info][gc,phases      ] GC(6)   Pre Evacuate Collection Set: 0.1ms
+[2.114s][info][gc,phases      ] GC(6)   Merge Heap Roots: 0.1ms
+[2.114s][info][gc,phases      ] GC(6)   Evacuate Collection Set: 22.7ms
+[2.114s][info][gc,phases      ] GC(6)   Post Evacuate Collection Set: 0.6ms
+[2.114s][info][gc,phases      ] GC(6)   Other: 0.1ms
+[2.114s][info][gc,heap        ] GC(6) Eden regions: 35->0(16)
+[2.114s][info][gc,heap        ] GC(6) Survivor regions: 1->6(6)
+[2.114s][info][gc,heap        ] GC(6) Old regions: 16->25
+[2.114s][info][gc,heap        ] GC(6) Archive regions: 0->0
+[2.114s][info][gc,heap        ] GC(6) Humongous regions: 8->5
+[2.114s][info][gc,metaspace   ] GC(6) Metaspace: 11763K(11904K)->11763K(11904K) NonClass: 10501K(10560K)->10501K(10560K) Class: 1262K(1344K)->1262K(1344K)
+[2.114s][info][gc             ] GC(6) Pause Young (Prepare Mixed) (G1 Evacuation Pause) 53M->29M(75M) 23.921ms
+[2.114s][info][gc,cpu         ] GC(6) User=0.02s Sys=0.03s Real=0.02s
+[2.570s][info][gc,heap,exit   ] Heap
+[2.570s][info][gc,heap,exit   ]  garbage-first heap   total 76800K, used 45397K [0x00000000c0000000, 0x0000000100000000)
+[2.570s][info][gc,heap,exit   ]   region size 1024K, 17 young (17408K), 6 survivors (6144K)
+[2.570s][info][gc,heap,exit   ]  Metaspace       used 12014K, committed 12224K, reserved 1114112K
+[2.570s][info][gc,heap,exit   ]   class space    used 1311K, committed 1408K, reserved 1048576K
