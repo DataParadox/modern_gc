@@ -69,4 +69,4 @@ To draw the graphs for the purpose of analysis the results we use following pyth
 ```
 python graph_drawing.py --csv [csv file name] --gc [column name that includes list of GCs] --benchmark [column name that includes list of benchmark]
 ```
-The associated graphs and figures are given in the [Figures](https://github.com/DataParadox/modern_gc/tree/main/Example/Figures) folder, and the report of this project work is given in the [Example](https://github.com/DataParadox/modern_gc/tree/main/Example) folder.
+The associated graphs and figures are given in the [Figures](https://github.com/DataParadox/modern_gc/tree/main/Example/Figures) folder, and the report of this project work is given in the [here](https://github.com/DataParadox/modern_gc/blob/main/Example/Project_Report.pdf).
