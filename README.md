@@ -1,5 +1,6 @@
 # A Performance Analysis of Modern Garbage Collectors in the JDK 20 Environment
 
+## Run GCs
 ***Help***
 + ``--b_suite``: Evaluation benchmark suite (``dacapo``, ``renaissance``)
 + ``--benchmark``: Evaluation benchmark dataset
@@ -11,7 +12,8 @@
 ```python
 python performance_analysis.py --b_suite dacapo --benchmark xalan --max_heap 2048 --varying_heap True
 ```
-***Dacapo Benchmark Suite:*** The DaCapo-9.12-bach benchmark suite, released in 2009, consists of the following benchmarks:
+## Dacapo Benchmark Suite
+The DaCapo-9.12-bach benchmark suite, released in 2009, consists of the following benchmarks:
 + ``avrora`` - simulates a number of programs run on a grid of AVR microcontrollers
 + ``batik`` - produces a number of Scalable Vector Graphics (SVG) images based on the unit tests in Apache Batik
 + ``eclipse`` - executes some of the (non-gui) jdt performance tests for the Eclipse IDE
@@ -27,7 +29,8 @@ python performance_analysis.py --b_suite dacapo --benchmark xalan --max_heap 204
 + ``tradesoap`` - runs the daytrader benchmark via a SOAP to a GERONIMO backend with in memory h2 as the underlying database
 + ``xalan`` - transforms XML documents into HTML
 
-***Renaissance Benchmark Suite:*** The following is the complete list of benchmarks, separated into groups.
+## Renaissance Benchmark Suite
+The following is the complete list of benchmarks, separated into groups.
 + ``apache-spark:``
   - ``als`` - Runs the ALS algorithm from the Spark ML library.
   - ``chi-square`` - Runs the chi-square test from Spark MLlib.
@@ -59,3 +62,11 @@ python performance_analysis.py --b_suite dacapo --benchmark xalan --max_heap 204
 + ``web:``
   - ``finagle-chirper`` - Simulates a microblogging service using Twitter Finagle.
   - ``finagle-http`` - Sends many small Finagle HTTP requests to a Finagle HTTP server and awaits response.
+
+## Performance Analysis
+We use [GCeasy - A Universal GC Log Analyzer](https://gceasy.io/) to analyze the log files found after running GCs. We use both [Fixed Heap](https://github.com/DataParadox/modern_gc/tree/main/Example/Fixed%20Heap) and [Varying Heap](https://github.com/DataParadox/modern_gc/tree/main/Example/Heap%20Varying) environments for run the garbage collectors. The results found using GC analyzers are processed into these [CSV files](https://github.com/DataParadox/modern_gc/tree/main/Example/CSV). But these, CSV files not includes all of our experimental results, the works are still ongoing for the processing of GC logs, the working results are given in this [spreed sheet](https://docs.google.com/spreadsheets/d/1q-yOf08cjjUDzucWbLQLKjWb6UHRoMBGGpsBQoUSoAI/edit).
+To draw the graphs for the purpose of analysis the results we use following python script -
+```
+python graph_drawing.py --csv [csv file name] --gc [column name that includes list of GCs] --benchmark [column name that includes list of benchmark]
+```
+The associated graphs and figures are given in the [Figures](https://github.com/DataParadox/modern_gc/tree/main/Example/Figures) folder, and the report of this project work is given in the [Example](https://github.com/DataParadox/modern_gc/tree/main/Example) folder.
